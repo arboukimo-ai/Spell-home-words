@@ -12764,495 +12764,247 @@ input,button{font-family:system-ui,sans-serif;}
     }
   });
 
-  // tmp/entry2.jsx
+  // tmp/entry_v11.jsx
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
   var import_jsx_runtime = __toESM(require_jsx_runtime());
   var WORDS = [
-    // Kitchen (32)
-    { word: "refrigerator", kk: "/r\u026A\u02C8fr\u026Ad\u0292\u0259\u02CCre\u026At\u0259r/", zh: "\u51B0\u7BB1", cat: "Kitchen", emoji: "\u{1F9CA}" },
-    { word: "microwave", kk: "/\u02C8ma\u026Akro\u02CCwe\u026Av/", zh: "\u5FAE\u6CE2\u7210", cat: "Kitchen", emoji: "\u{1F4DF}" },
-    { word: "dishwasher", kk: "/\u02C8d\u026A\u0283\u02CCw\u0251\u0283\u0259r/", zh: "\u6D17\u7897\u6A5F", cat: "Kitchen", emoji: "\u{1F37D}\uFE0F" },
-    { word: "cupboard", kk: "/\u02C8k\u028Cb\u0259rd/", zh: "\u7897\u6AE5", cat: "Kitchen", emoji: "\u{1F5C4}\uFE0F" },
-    { word: "faucet", kk: "/\u02C8f\u0254s\u026At/", zh: "\u6C34\u9F8D\u982D", cat: "Kitchen", emoji: "\u{1F6B0}" },
-    { word: "spatula", kk: "/\u02C8sp\xE6t\u0283\u0259l\u0259/", zh: "\u934B\u93DF", cat: "Kitchen", emoji: "\u{1F944}" },
-    { word: "countertop", kk: "/\u02C8ka\u028Ant\u0259r\u02CCt\u0251p/", zh: "\u6D41\u7406\u53F0", cat: "Kitchen", emoji: "\u{1F532}" },
-    { word: "colander", kk: "/\u02C8k\u0251l\u0259nd\u0259r/", zh: "\u6FFE\u7DB2", cat: "Kitchen", emoji: "\u{1FAA3}" },
-    { word: "kettle", kk: "/\u02C8k\u025Btl/", zh: "\u6C34\u58FA", cat: "Kitchen", emoji: "\u{1FAD6}" },
-    { word: "toaster", kk: "/\u02C8to\u028Ast\u0259r/", zh: "\u70E4\u9EB5\u5305\u6A5F", cat: "Kitchen", emoji: "\u{1F35E}" },
-    { word: "blender", kk: "/\u02C8bl\u025Bnd\u0259r/", zh: "\u679C\u6C41\u6A5F", cat: "Kitchen", emoji: "\u{1F964}" },
-    { word: "oven", kk: "/\u02C8\u028Cv\u0259n/", zh: "\u70E4\u7BB1", cat: "Kitchen", emoji: "\u{1F525}" },
-    { word: "stove", kk: "/sto\u028Av/", zh: "\u7210\u5B50", cat: "Kitchen", emoji: "\u{1F372}" },
-    { word: "sink", kk: "/s\u026A\u014Bk/", zh: "\u6C34\u69FD", cat: "Kitchen", emoji: "\u{1F6B0}" },
-    { word: "cabinet", kk: "/\u02C8k\xE6b\u026An\u026At/", zh: "\u6AE5\u6AC3", cat: "Kitchen", emoji: "\u{1F5C4}\uFE0F" },
-    { word: "drawer", kk: "/dr\u0254r/", zh: "\u62BD\u5C5C", cat: "Kitchen", emoji: "\u{1F5C2}\uFE0F" },
-    { word: "chopsticks", kk: "/\u02C8t\u0283\u0251p\u02CCst\u026Aks/", zh: "\u7B77\u5B50", cat: "Kitchen", emoji: "\u{1F962}" },
-    { word: "cutting board", kk: "/\u02C8k\u028Ct\u026A\u014B b\u0254rd/", zh: "\u7827\u677F", cat: "Kitchen", emoji: "\u{1FAB5}" },
-    { word: "pot", kk: "/p\u0251t/", zh: "\u934B\u5B50", cat: "Kitchen", emoji: "\u{1FAD5}" },
-    { word: "pan", kk: "/p\xE6n/", zh: "\u5E73\u5E95\u934B", cat: "Kitchen", emoji: "\u{1F373}" },
-    { word: "ladle", kk: "/\u02C8le\u026Adl/", zh: "\u6E6F\u52FA", cat: "Kitchen", emoji: "\u{1F944}" },
-    { word: "apron", kk: "/\u02C8e\u026Apr\u0259n/", zh: "\u570D\u88D9", cat: "Kitchen", emoji: "\u{1F9F6}" },
-    { word: "pitcher", kk: "/\u02C8p\u026At\u0283\u0259r/", zh: "\u6C34\u7F50", cat: "Kitchen", emoji: "\u{1FAD7}" },
-    { word: "lid", kk: "/l\u026Ad/", zh: "\u934B\u84CB", cat: "Kitchen", emoji: "\u2B55" },
-    { word: "whisk", kk: "/w\u026Ask/", zh: "\u6253\u86CB\u5668", cat: "Kitchen", emoji: "\u{1F373}" },
-    { word: "grater", kk: "/\u02C8gre\u026At\u0259r/", zh: "\u78E8\u83DC\u5668", cat: "Kitchen", emoji: "\u{1F9C0}" },
-    { word: "peeler", kk: "/\u02C8pil\u0259r/", zh: "\u524A\u76AE\u5200", cat: "Kitchen", emoji: "\u{1F955}" },
-    { word: "timer", kk: "/\u02C8ta\u026Am\u0259r/", zh: "\u8A08\u6642\u5668", cat: "Kitchen", emoji: "\u23F1\uFE0F" },
-    { word: "strainer", kk: "/\u02C8stre\u026An\u0259r/", zh: "\u904E\u6FFE\u5668", cat: "Kitchen", emoji: "\u{1FAD9}" },
-    { word: "tray", kk: "/tre\u026A/", zh: "\u6258\u76E4", cat: "Kitchen", emoji: "\u{1F371}" },
-    { word: "wok", kk: "/w\u0251k/", zh: "\u7092\u934B", cat: "Kitchen", emoji: "\u{1F958}" },
-    { word: "thermos", kk: "/\u02C8\u03B8\u025Crm\u0259s/", zh: "\u4FDD\u6EAB\u74F6", cat: "Kitchen", emoji: "\u{1FAD6}" },
-    // Living Room (26)
-    { word: "sofa", kk: "/\u02C8so\u028Af\u0259/", zh: "\u6C99\u767C", cat: "Living Room", emoji: "\u{1F6CB}\uFE0F" },
-    { word: "television", kk: "/\u02C8t\u025Bl\u0259\u02CCv\u026A\u0292\u0259n/", zh: "\u96FB\u8996", cat: "Living Room", emoji: "\u{1F4FA}" },
-    { word: "bookshelf", kk: "/\u02C8b\u028Ak\u02CC\u0283\u025Blf/", zh: "\u66F8\u67B6", cat: "Living Room", emoji: "\u{1F4DA}" },
-    { word: "curtain", kk: "/\u02C8k\u025Crt\u0259n/", zh: "\u7A97\u7C3E", cat: "Living Room", emoji: "\u{1FA9F}" },
-    { word: "carpet", kk: "/\u02C8k\u0251rp\u026At/", zh: "\u5730\u6BEF", cat: "Living Room", emoji: "\u{1F7EB}" },
-    { word: "cushion", kk: "/\u02C8k\u028A\u0283\u0259n/", zh: "\u5750\u588A", cat: "Living Room", emoji: "\u{1F7E6}" },
-    { word: "remote control", kk: "/r\u026A\u02C8mo\u028At k\u0259n\u02C8tro\u028Al/", zh: "\u9059\u63A7\u5668", cat: "Living Room", emoji: "\u{1F3AE}" },
-    { word: "lamp", kk: "/l\xE6mp/", zh: "\u6AAF\u71C8", cat: "Living Room", emoji: "\u{1F4A1}" },
-    { word: "armchair", kk: "/\u02C8\u0251rm\u02CCt\u0283\u025Br/", zh: "\u6276\u624B\u6905", cat: "Living Room", emoji: "\u{1FA91}" },
-    { word: "coffee table", kk: "/\u02C8k\u0254fi \u02CCte\u026Ab\u0259l/", zh: "\u8336\u51E0", cat: "Living Room", emoji: "\u2615" },
-    { word: "fireplace", kk: "/\u02C8fa\u026A\u0259r\u02CCple\u026As/", zh: "\u58C1\u7210", cat: "Living Room", emoji: "\u{1F525}" },
-    { word: "clock", kk: "/kl\u0251k/", zh: "\u6642\u9418", cat: "Living Room", emoji: "\u{1F550}" },
-    { word: "vase", kk: "/ve\u026As/", zh: "\u82B1\u74F6", cat: "Living Room", emoji: "\u{1F337}" },
-    { word: "picture frame", kk: "/\u02C8p\u026Akt\u0283\u0259r fre\u026Am/", zh: "\u76F8\u6846", cat: "Living Room", emoji: "\u{1F5BC}\uFE0F" },
-    { word: "rug", kk: "/r\u028C\u0261/", zh: "\u5C0F\u5730\u6BEF", cat: "Living Room", emoji: "\u{1F7E5}" },
-    { word: "fan", kk: "/f\xE6n/", zh: "\u96FB\u98A8\u6247", cat: "Living Room", emoji: "\u{1F300}" },
-    { word: "air conditioner", kk: "/\u025Br k\u0259n\u02C8d\u026A\u0283\u0259n\u0259r/", zh: "\u51B7\u6C23\u6A5F", cat: "Living Room", emoji: "\u2744\uFE0F" },
-    { word: "speaker", kk: "/\u02C8spik\u0259r/", zh: "\u5587\u53ED", cat: "Living Room", emoji: "\u{1F50A}" },
-    { word: "window", kk: "/\u02C8w\u026Ando\u028A/", zh: "\u7A97\u6236", cat: "Living Room", emoji: "\u{1FA9F}" },
-    { word: "throw pillow", kk: "/\u03B8ro\u028A \u02C8p\u026Alo\u028A/", zh: "\u62B1\u6795", cat: "Living Room", emoji: "\u{1F6CB}\uFE0F" },
-    { word: "side table", kk: "/sa\u026Ad \u02C8te\u026Ab\u0259l/", zh: "\u908A\u684C", cat: "Living Room", emoji: "\u{1FAB5}" },
-    { word: "chandelier", kk: "/\u02CC\u0283\xE6nd\u0259\u02C8l\u026Ar/", zh: "\u540A\u71C8", cat: "Living Room", emoji: "\u{1F56F}\uFE0F" },
-    { word: "blinds", kk: "/bla\u026Andz/", zh: "\u767E\u8449\u7A97", cat: "Living Room", emoji: "\u{1FA9F}" },
-    { word: "floor lamp", kk: "/fl\u0254r l\xE6mp/", zh: "\u843D\u5730\u71C8", cat: "Living Room", emoji: "\u{1F56F}\uFE0F" },
-    { word: "mantle", kk: "/\u02C8m\xE6ntl/", zh: "\u58C1\u7210\u67B6", cat: "Living Room", emoji: "\u{1F525}" },
-    { word: "ottoman", kk: "/\u02C8\u0251t\u0259m\u0259n/", zh: "\u8173\u51F3", cat: "Living Room", emoji: "\u{1FA91}" },
-    // Bedroom (26)
-    { word: "mattress", kk: "/\u02C8m\xE6tr\u026As/", zh: "\u5E8A\u588A", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F" },
-    { word: "pillow", kk: "/\u02C8p\u026Alo\u028A/", zh: "\u6795\u982D", cat: "Bedroom", emoji: "\u{1FAA8}" },
-    { word: "blanket", kk: "/\u02C8bl\xE6\u014Bk\u026At/", zh: "\u6BEF\u5B50", cat: "Bedroom", emoji: "\u{1F6CC}" },
-    { word: "wardrobe", kk: "/\u02C8w\u0254r\u02CCdro\u028Ab/", zh: "\u8863\u6AC3", cat: "Bedroom", emoji: "\u{1F6AA}" },
-    { word: "nightstand", kk: "/\u02C8na\u026At\u02CCst\xE6nd/", zh: "\u5E8A\u982D\u6AC3", cat: "Bedroom", emoji: "\u{1F319}" },
-    { word: "alarm clock", kk: "/\u0259\u02C8l\u0251rm kl\u0251k/", zh: "\u9B27\u9418", cat: "Bedroom", emoji: "\u23F0" },
-    { word: "hanger", kk: "/\u02C8h\xE6\u014B\u0259r/", zh: "\u8863\u67B6", cat: "Bedroom", emoji: "\u{1FA9D}" },
-    { word: "quilt", kk: "/kw\u026Alt/", zh: "\u68C9\u88AB", cat: "Bedroom", emoji: "\u{1F6CC}" },
-    { word: "bedsheet", kk: "/\u02C8b\u025Bd\u02CC\u0283it/", zh: "\u5E8A\u55AE", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F" },
-    { word: "dresser", kk: "/\u02C8dr\u025Bs\u0259r/", zh: "\u68B3\u599D\u53F0", cat: "Bedroom", emoji: "\u{1F484}" },
-    { word: "closet", kk: "/\u02C8kl\u0251z\u026At/", zh: "\u8863\u6AE5", cat: "Bedroom", emoji: "\u{1F457}" },
-    { word: "desk", kk: "/d\u025Bsk/", zh: "\u66F8\u684C", cat: "Bedroom", emoji: "\u{1F5A5}\uFE0F" },
-    { word: "bookcase", kk: "/\u02C8b\u028Ak\u02CCke\u026As/", zh: "\u66F8\u6AC3", cat: "Bedroom", emoji: "\u{1F4DA}" },
-    { word: "bed frame", kk: "/b\u025Bd fre\u026Am/", zh: "\u5E8A\u67B6", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F" },
-    { word: "lampshade", kk: "/\u02C8l\xE6mp\u02CC\u0283e\u026Ad/", zh: "\u71C8\u7F69", cat: "Bedroom", emoji: "\u{1F4A1}" },
-    { word: "ceiling fan", kk: "/\u02C8sil\u026A\u014B f\xE6n/", zh: "\u540A\u6247", cat: "Bedroom", emoji: "\u{1F300}" },
-    { word: "headboard", kk: "/\u02C8h\u025Bd\u02CCb\u0254rd/", zh: "\u5E8A\u982D\u677F", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F" },
-    { word: "duvet", kk: "/du\u02C8ve\u026A/", zh: "\u7FBD\u7D68\u88AB", cat: "Bedroom", emoji: "\u{1F6CC}" },
-    { word: "bedside lamp", kk: "/\u02C8b\u025Bd\u02CCsa\u026Ad l\xE6mp/", zh: "\u5E8A\u982D\u71C8", cat: "Bedroom", emoji: "\u{1F4A1}" },
-    { word: "clothes rack", kk: "/klo\u028A\xF0z r\xE6k/", zh: "\u8863\u7269\u67B6", cat: "Bedroom", emoji: "\u{1FA9D}" },
-    { word: "storage box", kk: "/\u02C8st\u0254r\u026Ad\u0292 b\u0251ks/", zh: "\u6536\u7D0D\u76D2", cat: "Bedroom", emoji: "\u{1F4E6}" },
-    { word: "window blind", kk: "/\u02C8w\u026Ando\u028A bla\u026And/", zh: "\u6372\u7C3E", cat: "Bedroom", emoji: "\u{1FA9F}" },
-    { word: "floor mat", kk: "/fl\u0254r m\xE6t/", zh: "\u5730\u588A", cat: "Bedroom", emoji: "\u{1F7E9}" },
-    { word: "mirror", kk: "/\u02C8m\u026Ar\u0259r/", zh: "\u93E1\u5B50", cat: "Bedroom", emoji: "\u{1FA9E}" },
-    { word: "jewelry box", kk: "/\u02C8d\u0292u\u0259lri b\u0251ks/", zh: "\u73E0\u5BF6\u76D2", cat: "Bedroom", emoji: "\u{1F48D}" },
-    { word: "bedspread", kk: "/\u02C8b\u025Bd\u02CCspr\u025Bd/", zh: "\u5E8A\u7F69", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F" },
-    // Bathroom (26)
-    { word: "toothbrush", kk: "/\u02C8tu\u03B8\u02CCbr\u028C\u0283/", zh: "\u7259\u5237", cat: "Bathroom", emoji: "\u{1FAA5}" },
-    { word: "toothpaste", kk: "/\u02C8tu\u03B8\u02CCpe\u026Ast/", zh: "\u7259\u818F", cat: "Bathroom", emoji: "\u{1F9B7}" },
-    { word: "shampoo", kk: "/\u0283\xE6m\u02C8pu/", zh: "\u6D17\u9AEE\u7CBE", cat: "Bathroom", emoji: "\u{1F9F4}" },
-    { word: "towel", kk: "/\u02C8ta\u028A\u0259l/", zh: "\u6BDB\u5DFE", cat: "Bathroom", emoji: "\u{1F9FB}" },
-    { word: "bathtub", kk: "/\u02C8b\xE6\u03B8\u02CCt\u028Cb/", zh: "\u6D74\u7F38", cat: "Bathroom", emoji: "\u{1F6C1}" },
-    { word: "toilet", kk: "/\u02C8t\u0254\u026Al\u026At/", zh: "\u99AC\u6876", cat: "Bathroom", emoji: "\u{1F6BD}" },
-    { word: "soap", kk: "/so\u028Ap/", zh: "\u80A5\u7682", cat: "Bathroom", emoji: "\u{1F9FC}" },
-    { word: "shower", kk: "/\u02C8\u0283a\u028A\u0259r/", zh: "\u6DCB\u6D74\u9593", cat: "Bathroom", emoji: "\u{1F6BF}" },
-    { word: "conditioner", kk: "/k\u0259n\u02C8d\u026A\u0283\u0259n\u0259r/", zh: "\u6F64\u9AEE\u4E73", cat: "Bathroom", emoji: "\u{1F9F4}" },
-    { word: "razor", kk: "/\u02C8re\u026Az\u0259r/", zh: "\u522E\u9B0D\u5200", cat: "Bathroom", emoji: "\u{1FA92}" },
-    { word: "hair dryer", kk: "/h\u025Br \u02C8dra\u026A\u0259r/", zh: "\u5439\u98A8\u6A5F", cat: "Bathroom", emoji: "\u{1F4A8}" },
-    { word: "scale", kk: "/ske\u026Al/", zh: "\u9AD4\u91CD\u8A08", cat: "Bathroom", emoji: "\u2696\uFE0F" },
-    { word: "toilet paper", kk: "/\u02C8t\u0254\u026Al\u026At \u02C8pe\u026Ap\u0259r/", zh: "\u885B\u751F\u7D19", cat: "Bathroom", emoji: "\u{1F9FB}" },
-    { word: "bathrobe", kk: "/\u02C8b\xE6\u03B8\u02CCro\u028Ab/", zh: "\u6D74\u888D", cat: "Bathroom", emoji: "\u{1FA71}" },
-    { word: "dental floss", kk: "/\u02C8d\u025Bntl fl\u0251s/", zh: "\u7259\u7DDA", cat: "Bathroom", emoji: "\u{1F9B7}" },
-    { word: "washcloth", kk: "/\u02C8w\u0251\u0283\u02CCkl\u0254\u03B8/", zh: "\u6D17\u81C9\u5DFE", cat: "Bathroom", emoji: "\u{1F9FD}" },
-    { word: "plunger", kk: "/\u02C8pl\u028Cnd\u0292\u0259r/", zh: "\u758F\u901A\u5668", cat: "Bathroom", emoji: "\u{1FAA0}" },
-    { word: "towel rack", kk: "/\u02C8ta\u028A\u0259l r\xE6k/", zh: "\u6BDB\u5DFE\u67B6", cat: "Bathroom", emoji: "\u{1FA9D}" },
-    { word: "bath mat", kk: "/b\xE6\u03B8 m\xE6t/", zh: "\u6D74\u5BA4\u9632\u6ED1\u588A", cat: "Bathroom", emoji: "\u{1F7E9}" },
-    { word: "medicine cabinet", kk: "/\u02C8m\u025Bds\u0259n \u02C8k\xE6b\u026An\u026At/", zh: "\u85E5\u6AC3", cat: "Bathroom", emoji: "\u{1F48A}" },
-    { word: "shower curtain", kk: "/\u02C8\u0283a\u028A\u0259r \u02C8k\u025Crt\u0259n/", zh: "\u6D74\u7C3E", cat: "Bathroom", emoji: "\u{1F6BF}" },
-    { word: "cotton swab", kk: "/\u02C8k\u0251t\u0259n sw\u0251b/", zh: "\u68C9\u82B1\u68D2", cat: "Bathroom", emoji: "\u{1F33F}" },
-    { word: "loofah", kk: "/\u02C8luf\u0259/", zh: "\u6C90\u6D74\u7403", cat: "Bathroom", emoji: "\u{1F9FD}" },
-    { word: "bathroom mirror", kk: "/\u02C8b\xE6\u03B8rum \u02C8m\u026Ar\u0259r/", zh: "\u6D74\u5BA4\u93E1", cat: "Bathroom", emoji: "\u{1FA9E}" },
-    { word: "hand soap", kk: "/h\xE6nd so\u028Ap/", zh: "\u6D17\u624B\u6DB2", cat: "Bathroom", emoji: "\u{1F9FC}" },
-    { word: "toilet brush", kk: "/\u02C8t\u0254\u026Al\u026At br\u028C\u0283/", zh: "\u99AC\u6876\u5237", cat: "Bathroom", emoji: "\u{1FAA5}" },
-    // Study (22)
-    { word: "printer", kk: "/\u02C8pr\u026Ant\u0259r/", zh: "\u5370\u8868\u6A5F", cat: "Study", emoji: "\u{1F5A8}\uFE0F" },
-    { word: "keyboard", kk: "/\u02C8kib\u0254rd/", zh: "\u9375\u76E4", cat: "Study", emoji: "\u2328\uFE0F" },
-    { word: "mouse", kk: "/ma\u028As/", zh: "\u6ED1\u9F20", cat: "Study", emoji: "\u{1F5B1}\uFE0F" },
-    { word: "monitor", kk: "/\u02C8m\u0251n\u026At\u0259r/", zh: "\u87A2\u5E55", cat: "Study", emoji: "\u{1F5A5}\uFE0F" },
-    { word: "notebook", kk: "/\u02C8no\u028At\u02CCb\u028Ak/", zh: "\u7B46\u8A18\u672C", cat: "Study", emoji: "\u{1F4D3}" },
-    { word: "pencil", kk: "/\u02C8p\u025Bns\u0259l/", zh: "\u925B\u7B46", cat: "Study", emoji: "\u270F\uFE0F" },
-    { word: "scissors", kk: "/\u02C8s\u026Az\u0259rz/", zh: "\u526A\u5200", cat: "Study", emoji: "\u2702\uFE0F" },
-    { word: "stapler", kk: "/\u02C8ste\u026Apl\u0259r/", zh: "\u91D8\u66F8\u6A5F", cat: "Study", emoji: "\u{1F5C2}\uFE0F" },
-    { word: "calendar", kk: "/\u02C8k\xE6l\u0259nd\u0259r/", zh: "\u65E5\u66C6", cat: "Study", emoji: "\u{1F4C5}" },
-    { word: "folder", kk: "/\u02C8fo\u028Ald\u0259r/", zh: "\u8CC7\u6599\u593E", cat: "Study", emoji: "\u{1F4C1}" },
-    { word: "tape", kk: "/te\u026Ap/", zh: "\u81A0\u5E36", cat: "Study", emoji: "\u{1F4CF}" },
-    { word: "ruler", kk: "/\u02C8rul\u0259r/", zh: "\u5C3A", cat: "Study", emoji: "\u{1F4CF}" },
-    { word: "eraser", kk: "/\u026A\u02C8re\u026As\u0259r/", zh: "\u6A61\u76AE\u64E6", cat: "Study", emoji: "\u{1F9F9}" },
-    { word: "highlighter", kk: "/\u02C8ha\u026A\u02CCla\u026At\u0259r/", zh: "\u87A2\u5149\u7B46", cat: "Study", emoji: "\u{1F58A}\uFE0F" },
-    { word: "bookend", kk: "/\u02C8b\u028Ak\u02CC\u025Bnd/", zh: "\u66F8\u64CB", cat: "Study", emoji: "\u{1F4DA}" },
-    { word: "desk lamp", kk: "/d\u025Bsk l\xE6mp/", zh: "\u66F8\u684C\u71C8", cat: "Study", emoji: "\u{1F4A1}" },
-    { word: "whiteboard", kk: "/\u02C8wa\u026At\u02CCb\u0254rd/", zh: "\u767D\u677F", cat: "Study", emoji: "\u{1F7E6}" },
-    { word: "pen holder", kk: "/p\u025Bn \u02C8ho\u028Ald\u0259r/", zh: "\u7B46\u7B52", cat: "Study", emoji: "\u270F\uFE0F" },
-    { word: "shredder", kk: "/\u02C8\u0283r\u025Bd\u0259r/", zh: "\u788E\u7D19\u6A5F", cat: "Study", emoji: "\u{1F4C4}" },
-    { word: "paper tray", kk: "/\u02C8pe\u026Ap\u0259r tre\u026A/", zh: "\u6587\u4EF6\u6258\u76E4", cat: "Study", emoji: "\u{1F4C4}" },
-    { word: "laptop", kk: "/\u02C8l\xE6p\u02CCt\u0251p/", zh: "\u7B46\u8A18\u578B\u96FB\u8166", cat: "Study", emoji: "\u{1F4BB}" },
-    { word: "charger", kk: "/\u02C8t\u0283\u0251rd\u0292\u0259r/", zh: "\u5145\u96FB\u5668", cat: "Study", emoji: "\u{1F50C}" },
-    // Laundry (22)
-    { word: "washing machine", kk: "/\u02C8w\u0251\u0283\u026A\u014B m\u0259\u02C8\u0283in/", zh: "\u6D17\u8863\u6A5F", cat: "Laundry", emoji: "\u{1FAE7}" },
-    { word: "dryer", kk: "/\u02C8dra\u026A\u0259r/", zh: "\u70D8\u4E7E\u6A5F", cat: "Laundry", emoji: "\u{1F300}" },
-    { word: "iron", kk: "/\u02C8a\u026A\u0259rn/", zh: "\u71A8\u6597", cat: "Laundry", emoji: "\u2668\uFE0F" },
-    { word: "ironing board", kk: "/\u02C8a\u026A\u0259rn\u026A\u014B b\u0254rd/", zh: "\u71D9\u8863\u677F", cat: "Laundry", emoji: "\u{1FA9C}" },
-    { word: "laundry basket", kk: "/\u02C8l\u0254ndri \u02C8b\xE6sk\u026At/", zh: "\u6D17\u8863\u7C43", cat: "Laundry", emoji: "\u{1F9FA}" },
-    { word: "detergent", kk: "/d\u026A\u02C8t\u025Crd\u0292\u0259nt/", zh: "\u6D17\u8863\u7CBE", cat: "Laundry", emoji: "\u{1F9F4}" },
-    { word: "clothespin", kk: "/\u02C8klo\u028A\xF0z\u02CCp\u026An/", zh: "\u66EC\u8863\u593E", cat: "Laundry", emoji: "\u{1FAA2}" },
-    { word: "vacuum cleaner", kk: "/\u02C8v\xE6kju\u0259m \u02C8klin\u0259r/", zh: "\u5438\u5875\u5668", cat: "Laundry", emoji: "\u{1F32C}\uFE0F" },
-    { word: "mop", kk: "/m\u0251p/", zh: "\u62D6\u628A", cat: "Laundry", emoji: "\u{1F9F9}" },
-    { word: "broom", kk: "/brum/", zh: "\u6383\u628A", cat: "Laundry", emoji: "\u{1F9F9}" },
-    { word: "dustpan", kk: "/\u02C8d\u028Cst\u02CCp\xE6n/", zh: "\u755A\u7B95", cat: "Laundry", emoji: "\u{1FAA3}" },
-    { word: "bucket", kk: "/\u02C8b\u028Ck\u026At/", zh: "\u6C34\u6876", cat: "Laundry", emoji: "\u{1FAA3}" },
-    { word: "sponge", kk: "/sp\u028Cnd\u0292/", zh: "\u6D77\u7DBF", cat: "Laundry", emoji: "\u{1F9FD}" },
-    { word: "dustbin", kk: "/\u02C8d\u028Cst\u02CCb\u026An/", zh: "\u5783\u573E\u6876", cat: "Laundry", emoji: "\u{1F5D1}\uFE0F" },
-    { word: "fabric softener", kk: "/\u02C8f\xE6br\u026Ak \u02C8s\u0254f\u0259n\u0259r/", zh: "\u67D4\u8EDF\u7CBE", cat: "Laundry", emoji: "\u{1F9F4}" },
-    { word: "lint roller", kk: "/l\u026Ant \u02C8ro\u028Al\u0259r/", zh: "\u9664\u6BDB\u6EFE\u8F2A", cat: "Laundry", emoji: "\u{1FAA3}" },
-    { word: "drying rack", kk: "/\u02C8dra\u026A\u026A\u014B r\xE6k/", zh: "\u66EC\u8863\u67B6", cat: "Laundry", emoji: "\u{1FA9C}" },
-    { word: "rubber gloves", kk: "/\u02C8r\u028Cb\u0259r \u0261l\u028Cvz/", zh: "\u6A61\u81A0\u624B\u5957", cat: "Laundry", emoji: "\u{1F9E4}" },
-    { word: "scrub brush", kk: "/skr\u028Cb br\u028C\u0283/", zh: "\u5237\u5B50", cat: "Laundry", emoji: "\u{1FAA5}" },
-    { word: "trash bag", kk: "/tr\xE6\u0283 b\xE6\u0261/", zh: "\u5783\u573E\u888B", cat: "Laundry", emoji: "\u{1F5D1}\uFE0F" },
-    { word: "squeegee", kk: "/\u02C8skwid\u0292i/", zh: "\u522E\u6C34\u5668", cat: "Laundry", emoji: "\u{1FA9F}" },
-    { word: "feather duster", kk: "/\u02C8f\u025B\xF0\u0259r \u02C8d\u028Cst\u0259r/", zh: "\u96DE\u6BDB\u64A2\u5B50", cat: "Laundry", emoji: "\u{1FAB6}" },
-    // Entrance (16)
-    { word: "doorbell", kk: "/\u02C8d\u0254r\u02CCb\u025Bl/", zh: "\u9580\u9234", cat: "Entrance", emoji: "\u{1F514}" },
-    { word: "doormat", kk: "/\u02C8d\u0254r\u02CCm\xE6t/", zh: "\u8173\u8E0F\u588A", cat: "Entrance", emoji: "\u{1F6AA}" },
-    { word: "umbrella stand", kk: "/\u028Cm\u02C8br\u025Bl\u0259 st\xE6nd/", zh: "\u96E8\u5098\u67B6", cat: "Entrance", emoji: "\u2602\uFE0F" },
-    { word: "key holder", kk: "/ki \u02C8ho\u028Ald\u0259r/", zh: "\u9470\u5319\u67B6", cat: "Entrance", emoji: "\u{1F511}" },
-    { word: "coat rack", kk: "/ko\u028At r\xE6k/", zh: "\u8863\u5E3D\u67B6", cat: "Entrance", emoji: "\u{1F9E5}" },
-    { word: "shoe rack", kk: "/\u0283u r\xE6k/", zh: "\u978B\u67B6", cat: "Entrance", emoji: "\u{1F45F}" },
-    { word: "hallway mirror", kk: "/\u02C8h\u0254l\u02CCwe\u026A \u02C8m\u026Ar\u0259r/", zh: "\u7384\u95DC\u93E1", cat: "Entrance", emoji: "\u{1FA9E}" },
-    { word: "intercom", kk: "/\u02C8\u026Ant\u0259r\u02CCk\u0251m/", zh: "\u5C0D\u8B1B\u6A5F", cat: "Entrance", emoji: "\u{1F4DE}" },
-    { word: "door chain", kk: "/d\u0254r t\u0283e\u026An/", zh: "\u9580\u93C8", cat: "Entrance", emoji: "\u26D3\uFE0F" },
-    { word: "light switch", kk: "/la\u026At sw\u026At\u0283/", zh: "\u96FB\u71C8\u958B\u95DC", cat: "Entrance", emoji: "\u{1F4A1}" },
-    { word: "welcome mat", kk: "/\u02C8w\u025Blk\u0259m m\xE6t/", zh: "\u6B61\u8FCE\u8E0F\u588A", cat: "Entrance", emoji: "\u{1F6AA}" },
-    { word: "peephole", kk: "/\u02C8pip\u02CCho\u028Al/", zh: "\u7ABA\u8996\u5B54", cat: "Entrance", emoji: "\u{1F441}\uFE0F" },
-    { word: "deadbolt", kk: "/\u02C8d\u025Bd\u02CCbo\u028Alt/", zh: "\u6697\u9582", cat: "Entrance", emoji: "\u{1F512}" },
-    { word: "doorknob", kk: "/\u02C8d\u0254r\u02CCn\u0251b/", zh: "\u9580\u628A", cat: "Entrance", emoji: "\u{1F511}" },
-    { word: "door hinge", kk: "/d\u0254r h\u026And\u0292/", zh: "\u9580\u9278\u93C8", cat: "Entrance", emoji: "\u{1F529}" },
-    { word: "shoe horn", kk: "/\u02C8\u0283u\u02CCh\u0254rn/", zh: "\u978B\u62D4", cat: "Entrance", emoji: "\u{1F45F}" },
-    // Dining Room (20)
-    { word: "dining table", kk: "/\u02C8da\u026An\u026A\u014B \u02C8te\u026Ab\u0259l/", zh: "\u9910\u684C", cat: "Dining Room", emoji: "\u{1F37D}\uFE0F" },
-    { word: "chair", kk: "/t\u0283\u025Br/", zh: "\u6905\u5B50", cat: "Dining Room", emoji: "\u{1FA91}" },
-    { word: "tablecloth", kk: "/\u02C8te\u026Ab\u0259l\u02CCkl\u0254\u03B8/", zh: "\u684C\u5E03", cat: "Dining Room", emoji: "\u{1F7E9}" },
-    { word: "napkin", kk: "/\u02C8n\xE6pk\u026An/", zh: "\u9910\u5DFE", cat: "Dining Room", emoji: "\u{1F9FB}" },
-    { word: "candlestick", kk: "/\u02C8k\xE6ndl\u02CCst\u026Ak/", zh: "\u71ED\u53F0", cat: "Dining Room", emoji: "\u{1F56F}\uFE0F" },
-    { word: "centerpiece", kk: "/\u02C8s\u025Bnt\u0259r\u02CCpis/", zh: "\u684C\u98FE", cat: "Dining Room", emoji: "\u{1F337}" },
-    { word: "placemat", kk: "/\u02C8ple\u026As\u02CCm\xE6t/", zh: "\u9910\u588A", cat: "Dining Room", emoji: "\u{1F7EB}" },
-    { word: "serving bowl", kk: "/\u02C8s\u025Crv\u026A\u014B bo\u028Al/", zh: "\u5927\u7897\u516C", cat: "Dining Room", emoji: "\u{1F963}" },
-    { word: "salt shaker", kk: "/s\u0254lt \u02C8\u0283e\u026Ak\u0259r/", zh: "\u9E7D\u7F50", cat: "Dining Room", emoji: "\u{1F9C2}" },
-    { word: "pepper mill", kk: "/\u02C8p\u025Bp\u0259r m\u026Al/", zh: "\u80E1\u6912\u7814\u78E8\u7F50", cat: "Dining Room", emoji: "\u{1F336}\uFE0F" },
-    { word: "wine glass", kk: "/wa\u026An \u0261l\xE6s/", zh: "\u9152\u676F", cat: "Dining Room", emoji: "\u{1F377}" },
-    { word: "mug", kk: "/m\u028C\u0261/", zh: "\u99AC\u514B\u676F", cat: "Dining Room", emoji: "\u2615" },
-    { word: "fork", kk: "/f\u0254rk/", zh: "\u53C9\u5B50", cat: "Dining Room", emoji: "\u{1F374}" },
-    { word: "knife", kk: "/na\u026Af/", zh: "\u5200\u5B50", cat: "Dining Room", emoji: "\u{1F52A}" },
-    { word: "spoon", kk: "/spun/", zh: "\u6E6F\u5319", cat: "Dining Room", emoji: "\u{1F944}" },
-    { word: "bread basket", kk: "/br\u025Bd \u02C8b\xE6sk\u026At/", zh: "\u9EB5\u5305\u7C43", cat: "Dining Room", emoji: "\u{1F35E}" },
-    { word: "soup bowl", kk: "/sup bo\u028Al/", zh: "\u6E6F\u7897", cat: "Dining Room", emoji: "\u{1F963}" },
-    { word: "gravy boat", kk: "/\u02C8\u0261re\u026Avi bo\u028At/", zh: "\u91AC\u6599\u58FA", cat: "Dining Room", emoji: "\u{1FAD9}" },
-    { word: "trivet", kk: "/\u02C8tr\u026Av\u026At/", zh: "\u9694\u71B1\u588A", cat: "Dining Room", emoji: "\u{1F532}" },
-    { word: "lazy susan", kk: "/\u02C8le\u026Azi \u02C8suz\u0259n/", zh: "\u8F49\u76E4", cat: "Dining Room", emoji: "\u{1F504}" },
-    // Garden (12)
-    { word: "flowerpot", kk: "/\u02C8fla\u028A\u0259r\u02CCp\u0251t/", zh: "\u82B1\u76C6", cat: "Garden", emoji: "\u{1FAB4}" },
-    { word: "garden hose", kk: "/\u02C8\u0261\u0251rd\u0259n ho\u028Az/", zh: "\u6F86\u6C34\u7BA1", cat: "Garden", emoji: "\u{1F4A7}" },
-    { word: "watering can", kk: "/\u02C8w\u0254t\u0259r\u026A\u014B k\xE6n/", zh: "\u7051\u6C34\u58FA", cat: "Garden", emoji: "\u{1FAE7}" },
-    { word: "lawnmower", kk: "/\u02C8l\u0254n\u02CCmo\u028A\u0259r/", zh: "\u5272\u8349\u6A5F", cat: "Garden", emoji: "\u{1F33F}" },
-    { word: "rake", kk: "/re\u026Ak/", zh: "\u8019\u5B50", cat: "Garden", emoji: "\u{1F342}" },
-    { word: "shovel", kk: "/\u02C8\u0283\u028Cv\u0259l/", zh: "\u93DF\u5B50", cat: "Garden", emoji: "\u26CF\uFE0F" },
-    { word: "wheelbarrow", kk: "/\u02C8wil\u02CCb\xE6ro\u028A/", zh: "\u624B\u63A8\u8ECA", cat: "Garden", emoji: "\u{1F6D2}" },
-    { word: "garden gloves", kk: "/\u02C8\u0261\u0251rd\u0259n \u0261l\u028Cvz/", zh: "\u5712\u85DD\u624B\u5957", cat: "Garden", emoji: "\u{1F9E4}" },
-    { word: "trowel", kk: "/\u02C8tra\u028A\u0259l/", zh: "\u5C0F\u93DF\u5B50", cat: "Garden", emoji: "\u{1F331}" },
-    { word: "sprinkler", kk: "/\u02C8spr\u026A\u014Bkl\u0259r/", zh: "\u7051\u6C34\u5668", cat: "Garden", emoji: "\u{1F4A6}" },
-    { word: "pruning shears", kk: "/\u02C8prun\u026A\u014B \u0283\u026Arz/", zh: "\u4FEE\u679D\u526A", cat: "Garden", emoji: "\u2702\uFE0F" },
-    { word: "bird feeder", kk: "/b\u025Crd \u02C8fid\u0259r/", zh: "\u9935\u9CE5\u5668", cat: "Garden", emoji: "\u{1F426}" },
-    // Garage (18)
-    { word: "toolbox", kk: "/\u02C8tul\u02CCb\u0251ks/", zh: "\u5DE5\u5177\u7BB1", cat: "Garage", emoji: "\u{1F9F0}" },
-    { word: "hammer", kk: "/\u02C8h\xE6m\u0259r/", zh: "\u9318\u5B50", cat: "Garage", emoji: "\u{1F528}" },
-    { word: "screwdriver", kk: "/\u02C8skru\u02CCdra\u026Av\u0259r/", zh: "\u87BA\u7D72\u8D77\u5B50", cat: "Garage", emoji: "\u{1FA9B}" },
-    { word: "wrench", kk: "/r\u025Bnt\u0283/", zh: "\u6273\u624B", cat: "Garage", emoji: "\u{1F527}" },
-    { word: "drill", kk: "/dr\u026Al/", zh: "\u96FB\u947D", cat: "Garage", emoji: "\u{1F529}" },
-    { word: "ladder", kk: "/\u02C8l\xE6d\u0259r/", zh: "\u68AF\u5B50", cat: "Garage", emoji: "\u{1FA9C}" },
-    { word: "extension cord", kk: "/\u026Ak\u02C8st\u025Bn\u0283\u0259n k\u0254rd/", zh: "\u5EF6\u9577\u7DDA", cat: "Garage", emoji: "\u{1F50C}" },
-    { word: "tape measure", kk: "/te\u026Ap \u02C8m\u025B\u0292\u0259r/", zh: "\u6372\u5C3A", cat: "Garage", emoji: "\u{1F4CF}" },
-    { word: "sandpaper", kk: "/\u02C8s\xE6nd\u02CCpe\u026Ap\u0259r/", zh: "\u7802\u7D19", cat: "Garage", emoji: "\u{1F4C4}" },
-    { word: "paintbrush", kk: "/\u02C8pe\u026Ant\u02CCbr\u028C\u0283/", zh: "\u6CB9\u6F06\u5237", cat: "Garage", emoji: "\u{1F58C}\uFE0F" },
-    { word: "nails", kk: "/ne\u026Alz/", zh: "\u91D8\u5B50", cat: "Garage", emoji: "\u{1F4CC}" },
-    { word: "work bench", kk: "/w\u025Crk b\u025Bnt\u0283/", zh: "\u5DE5\u4F5C\u53F0", cat: "Garage", emoji: "\u{1FAB5}" },
-    { word: "storage shelf", kk: "/\u02C8st\u0254r\u026Ad\u0292 \u0283\u025Blf/", zh: "\u5132\u7269\u67B6", cat: "Garage", emoji: "\u{1F5C4}\uFE0F" },
-    { word: "power strip", kk: "/\u02C8pa\u028A\u0259r str\u026Ap/", zh: "\u96FB\u6E90\u677F", cat: "Garage", emoji: "\u{1F50C}" },
-    { word: "cable ties", kk: "/\u02C8ke\u026Ab\u0259l ta\u026Az/", zh: "\u675F\u7DDA\u5E36", cat: "Garage", emoji: "\u{1FAA2}" },
-    { word: "utility knife", kk: "/ju\u02C8t\u026Al\u026Ati na\u026Af/", zh: "\u7F8E\u5DE5\u5200", cat: "Garage", emoji: "\u{1F52A}" },
-    { word: "level", kk: "/\u02C8l\u025Bv\u0259l/", zh: "\u6C34\u5E73\u5100", cat: "Garage", emoji: "\u{1F4D0}" },
-    { word: "stool", kk: "/stul/", zh: "\u51F3\u5B50", cat: "Garage", emoji: "\u{1FA91}" }
-  ].map((w) => ({ ...w, sentence: sentenceFor(w.word) }));
-  function sentenceFor(word) {
-    const S = {
-      "refrigerator": "Please put the leftovers in the refrigerator.",
-      "microwave": "I heated my lunch in the microwave.",
-      "dishwasher": "Let's put the dirty dishes in the dishwasher.",
-      "cupboard": "The mugs are in the cupboard above the sink.",
-      "faucet": "Turn off the faucet when you finish washing.",
-      "spatula": "Use a spatula to flip the pancake.",
-      "countertop": "She chopped the vegetables on the countertop.",
-      "colander": "Drain the pasta through a colander.",
-      "kettle": "She boiled water in the kettle for tea.",
-      "toaster": "He put two slices of bread in the toaster.",
-      "blender": "She made a smoothie with the blender.",
-      "oven": "Preheat the oven to 180 degrees.",
-      "stove": "The soup is simmering on the stove.",
-      "sink": "Rinse the vegetables in the sink.",
-      "cabinet": "The spices are stored in the cabinet.",
-      "drawer": "The forks are in the top drawer.",
-      "chopsticks": "She ate noodles with chopsticks.",
-      "cutting board": "Always use a cutting board when chopping.",
-      "pot": "She cooked rice in a large pot.",
-      "pan": "Fry the egg in the pan with butter.",
-      "ladle": "Use the ladle to serve the soup.",
-      "apron": "She tied on her apron before cooking.",
-      "pitcher": "She poured juice from the pitcher.",
-      "lid": "Put the lid on the pot to keep it warm.",
-      "whisk": "She used a whisk to beat the eggs.",
-      "grater": "He grated cheese with the grater.",
-      "peeler": "Use the peeler to remove the potato skin.",
-      "timer": "Set the timer for twenty minutes.",
-      "strainer": "Pour the soup through the strainer.",
-      "tray": "He carried the drinks on a tray.",
-      "wok": "She stir-fried the vegetables in a wok.",
-      "thermos": "He filled the thermos with hot coffee.",
-      "sofa": "We sat on the sofa and watched a movie.",
-      "television": "He turned on the television to watch the news.",
-      "bookshelf": "Her novels were neatly arranged on the bookshelf.",
-      "curtain": "She drew the curtain to keep the sun out.",
-      "carpet": "The dog left muddy paw prints on the carpet.",
-      "cushion": "I put a soft cushion behind my back.",
-      "remote control": "Can you pass me the remote control to change the channel.",
-      "lamp": "I read under the lamp before going to bed.",
-      "armchair": "Grandpa always naps in his armchair.",
-      "coffee table": "She put her cup on the coffee table.",
-      "fireplace": "The family gathered around the fireplace.",
-      "clock": "The clock on the wall says three o'clock.",
-      "vase": "She put fresh roses in the vase.",
-      "picture frame": "The picture frame on the shelf holds a family photo.",
-      "rug": "There is a colorful rug under the table.",
-      "fan": "Turn on the fan because it is too hot.",
-      "air conditioner": "Please turn on the air conditioner.",
-      "speaker": "She connected the speaker to her phone.",
-      "window": "Open the window to let in some fresh air.",
-      "throw pillow": "She arranged the throw pillows on the sofa.",
-      "side table": "He put his phone on the side table.",
-      "chandelier": "The chandelier lights up the whole room.",
-      "blinds": "She closed the blinds to block the light.",
-      "floor lamp": "The floor lamp stands next to the armchair.",
-      "mantle": "She placed candles on the mantle.",
-      "ottoman": "He rested his feet on the ottoman.",
-      "mattress": "We bought a new mattress because the old one was too soft.",
-      "pillow": "I fluffed my pillow before lying down.",
-      "blanket": "She pulled the blanket over her shoulders.",
-      "wardrobe": "He hung his suit inside the wardrobe.",
-      "nightstand": "I keep a glass of water on the nightstand.",
-      "alarm clock": "I set the alarm clock for six in the morning.",
-      "hanger": "Hang your jacket on the hanger in the closet.",
-      "quilt": "She wrapped herself in the warm quilt.",
-      "bedsheet": "She changed the bedsheet every Sunday.",
-      "dresser": "She keeps her jewelry on the dresser.",
-      "closet": "Her dresses are hanging in the closet.",
-      "desk": "He studied at his desk every evening.",
-      "bookcase": "The bookcase is full of science fiction novels.",
-      "bed frame": "They assembled the bed frame on moving day.",
-      "lampshade": "The lampshade softens the light at night.",
-      "ceiling fan": "The ceiling fan kept the room cool.",
-      "headboard": "The headboard is made of solid oak.",
-      "duvet": "She pulled the duvet over her head.",
-      "bedside lamp": "She turned off the bedside lamp and fell asleep.",
-      "clothes rack": "She hung her coats on the clothes rack.",
-      "storage box": "She put old photos in a storage box.",
-      "window blind": "He pulled down the window blind before sleeping.",
-      "floor mat": "She stepped on the soft floor mat.",
-      "mirror": "She checked her outfit in the mirror.",
-      "jewelry box": "She keeps rings in her jewelry box.",
-      "bedspread": "She smoothed out the bedspread before guests arrived.",
-      "toothbrush": "You should replace your toothbrush every three months.",
-      "toothpaste": "Squeeze a little toothpaste onto the brush.",
-      "shampoo": "She lathered shampoo into her hair.",
-      "towel": "Grab a towel from the rack after your shower.",
-      "bathtub": "He soaked in the bathtub for half an hour.",
-      "toilet": "Remember to flush the toilet after use.",
-      "soap": "Wash your hands with soap for twenty seconds.",
-      "shower": "She takes a shower every morning.",
-      "conditioner": "Use conditioner after shampoo to soften your hair.",
-      "razor": "He used a razor to shave his beard.",
-      "hair dryer": "She dried her hair with a hair dryer.",
-      "scale": "He stood on the scale to check his weight.",
-      "toilet paper": "We are running out of toilet paper.",
-      "bathrobe": "She put on her bathrobe after the shower.",
-      "dental floss": "Use dental floss to clean between your teeth.",
-      "washcloth": "She wiped her face with a soft washcloth.",
-      "plunger": "He used a plunger to unclog the toilet.",
-      "towel rack": "Hang your towel on the towel rack to dry.",
-      "bath mat": "The bath mat prevents slipping on the wet floor.",
-      "medicine cabinet": "She keeps aspirin in the medicine cabinet.",
-      "shower curtain": "She replaced the old shower curtain with a new one.",
-      "cotton swab": "He cleaned his ears with a cotton swab.",
-      "loofah": "She scrubbed her back with a loofah.",
-      "bathroom mirror": "He wiped the steam off the bathroom mirror.",
-      "hand soap": "There is hand soap next to the sink.",
-      "toilet brush": "He scrubbed the toilet with a toilet brush.",
-      "printer": "She printed the report on the printer.",
-      "keyboard": "He typed quickly on the keyboard.",
-      "mouse": "Move the mouse to the right to click the icon.",
-      "monitor": "She adjusted the brightness of the monitor.",
-      "notebook": "He wrote his notes in a notebook.",
-      "pencil": "She sharpened her pencil before the exam.",
-      "scissors": "Use scissors to cut along the dotted line.",
-      "stapler": "He used a stapler to fasten the papers.",
-      "calendar": "She circled the date on the calendar.",
-      "folder": "Keep all your documents in a folder.",
-      "tape": "She sealed the box with tape.",
-      "ruler": "He measured the paper with a ruler.",
-      "eraser": "She used the eraser to fix her mistake.",
-      "highlighter": "He highlighted the key sentences with a highlighter.",
-      "bookend": "She placed a bookend to keep the books upright.",
-      "desk lamp": "He turned on the desk lamp to read at night.",
-      "whiteboard": "She wrote the schedule on the whiteboard.",
-      "pen holder": "She put her pens in the pen holder.",
-      "shredder": "He put the old documents through the shredder.",
-      "paper tray": "Put the printed pages in the paper tray.",
-      "laptop": "She worked on her laptop at the desk.",
-      "charger": "Plug in the charger before your battery dies.",
-      "washing machine": "She put the clothes in the washing machine.",
-      "dryer": "The dryer tumbled the wet clothes dry.",
-      "iron": "She used an iron to smooth out her shirt.",
-      "ironing board": "Set up the ironing board before pressing clothes.",
-      "laundry basket": "Toss the dirty socks into the laundry basket.",
-      "detergent": "Add one cup of detergent to the washing machine.",
-      "clothespin": "She used a clothespin to hang the shirt on the line.",
-      "vacuum cleaner": "He ran the vacuum cleaner over the carpet.",
-      "mop": "She mopped the kitchen floor with a mop.",
-      "broom": "He swept the leaves with a broom.",
-      "dustpan": "Sweep the dirt into the dustpan.",
-      "bucket": "Fill the bucket with warm soapy water.",
-      "sponge": "She scrubbed the counter with a sponge.",
-      "dustbin": "Throw the rubbish in the dustbin.",
-      "fabric softener": "Add fabric softener to make clothes feel soft.",
-      "lint roller": "She used a lint roller to remove pet hair.",
-      "drying rack": "She hung the wet clothes on the drying rack.",
-      "rubber gloves": "Wear rubber gloves when cleaning the toilet.",
-      "scrub brush": "He scrubbed the tiles with a scrub brush.",
-      "trash bag": "She lined the bin with a trash bag.",
-      "squeegee": "He used a squeegee to clean the window.",
-      "feather duster": "She dusted the shelves with a feather duster.",
-      "doorbell": "She pressed the doorbell and waited.",
-      "doormat": "Wipe your shoes on the doormat before entering.",
-      "umbrella stand": "Leave your wet umbrella in the umbrella stand.",
-      "key holder": "Hang your keys on the key holder by the door.",
-      "coat rack": "Hang your coat on the coat rack.",
-      "shoe rack": "Put your sneakers on the shoe rack.",
-      "hallway mirror": "She checked herself in the hallway mirror.",
-      "intercom": "She answered the intercom to let the visitor in.",
-      "door chain": "He fastened the door chain before going to bed.",
-      "light switch": "Flip the light switch when you enter the room.",
-      "welcome mat": "They placed a welcome mat outside their front door.",
-      "peephole": "She looked through the peephole before opening the door.",
-      "deadbolt": "Always lock the deadbolt at night.",
-      "doorknob": "Turn the doorknob to open the door.",
-      "door hinge": "The door hinge squeaked when she opened it.",
-      "shoe horn": "He used a shoe horn to put on his boots.",
-      "dining table": "The whole family eats at the dining table.",
-      "chair": "Pull up a chair and sit down.",
-      "tablecloth": "She spread a white tablecloth on the table.",
-      "napkin": "He wiped his mouth with a napkin.",
-      "candlestick": "She lit the candle in the candlestick.",
-      "centerpiece": "The fresh flowers make a lovely centerpiece.",
-      "placemat": "She set a placemat under each plate.",
-      "serving bowl": "She placed a serving bowl of salad on the table.",
-      "salt shaker": "Pass me the salt shaker please.",
-      "pepper mill": "He ground pepper with the pepper mill.",
-      "wine glass": "She raised her wine glass for a toast.",
-      "mug": "He drank coffee from a large mug.",
-      "fork": "Use your fork to eat the salad.",
-      "knife": "He used a knife to cut the steak.",
-      "spoon": "She stirred the soup with a spoon.",
-      "bread basket": "She passed the bread basket around the table.",
-      "soup bowl": "He filled the soup bowl with hot broth.",
-      "gravy boat": "She poured gravy from the gravy boat.",
-      "trivet": "Put the hot pot on the trivet.",
-      "lazy susan": "Spin the lazy susan to share the dishes.",
-      "flowerpot": "She watered the plant in the flowerpot.",
-      "garden hose": "He used a garden hose to water the lawn.",
-      "watering can": "She filled the watering can to water the flowers.",
-      "lawnmower": "He pushed the lawnmower across the grass.",
-      "rake": "She used a rake to gather the fallen leaves.",
-      "shovel": "He dug a hole in the garden with a shovel.",
-      "wheelbarrow": "He moved the soil with a wheelbarrow.",
-      "garden gloves": "She put on garden gloves before pruning the roses.",
-      "trowel": "She used a trowel to plant the seedlings.",
-      "sprinkler": "The sprinkler kept the lawn green all summer.",
-      "pruning shears": "She used pruning shears to trim the hedge.",
-      "bird feeder": "He filled the bird feeder with seeds.",
-      "toolbox": "He grabbed the toolbox to fix the shelf.",
-      "hammer": "He used a hammer to nail the picture frame.",
-      "screwdriver": "She tightened the screw with a screwdriver.",
-      "wrench": "He used a wrench to fix the pipe.",
-      "drill": "She used a drill to make a hole in the wall.",
-      "ladder": "He climbed the ladder to change the light bulb.",
-      "extension cord": "She plugged the lamp into the extension cord.",
-      "tape measure": "He measured the wall with a tape measure.",
-      "sandpaper": "She smoothed the surface with sandpaper.",
-      "paintbrush": "He dipped the paintbrush into the can.",
-      "nails": "She hammered the nails into the wood.",
-      "work bench": "He assembled the furniture on the work bench.",
-      "storage shelf": "She organized the boxes on the storage shelf.",
-      "power strip": "All devices are plugged into the power strip.",
-      "cable ties": "He bundled the wires with cable ties.",
-      "utility knife": "She cut open the box with a utility knife.",
-      "level": "He used a level to make sure the shelf was straight.",
-      "stool": "She stood on the stool to reach the top shelf."
-    };
-    return S[word] || `This is a ${word}.`;
-  }
+    // Kitchen
+    { word: "refrigerator", kk: "/r\u026A\u02C8fr\u026Ad\u0292\u0259\u02CCre\u026At\u0259r/", zh: "\u51B0\u7BB1", cat: "Kitchen", emoji: "\u{1F9CA}", sentence: "Please put the leftovers in the refrigerator." },
+    { word: "microwave", kk: "/\u02C8ma\u026Akro\u02CCwe\u026Av/", zh: "\u5FAE\u6CE2\u7210", cat: "Kitchen", emoji: "\u{1F4FB}", sentence: "I heated my lunch in the microwave." },
+    { word: "dishwasher", kk: "/\u02C8d\u026A\u0283\u02CCw\u0251\u0283\u0259r/", zh: "\u6D17\u7897\u6A5F", cat: "Kitchen", emoji: "\u{1FAE7}", sentence: "Let's put the dirty dishes in the dishwasher." },
+    { word: "cupboard", kk: "/\u02C8k\u028Cb\u0259rd/", zh: "\u7897\u6AE5", cat: "Kitchen", emoji: "\u{1F6AA}", sentence: "The mugs are in the cupboard above the sink." },
+    { word: "faucet", kk: "/\u02C8f\u0254s\u026At/", zh: "\u6C34\u9F8D\u982D", cat: "Kitchen", emoji: "\u{1F6B0}", sentence: "Turn off the faucet when you finish washing." },
+    { word: "spatula", kk: "/\u02C8sp\xE6t\u0283\u0259l\u0259/", zh: "\u934B\u93DF", cat: "Kitchen", emoji: "\u{1F95E}", sentence: "Use a spatula to flip the pancake." },
+    { word: "countertop", kk: "/\u02C8ka\u028Ant\u0259r\u02CCt\u0251p/", zh: "\u6D41\u7406\u53F0", cat: "Kitchen", emoji: "\u{1F52A}", sentence: "She chopped the vegetables on the countertop." },
+    { word: "colander", kk: "/\u02C8k\u0251l\u0259nd\u0259r/", zh: "\u6FFE\u7DB2", cat: "Kitchen", emoji: "\u{1F35D}", sentence: "Drain the pasta through a colander." },
+    { word: "kettle", kk: "/\u02C8k\u025Btl/", zh: "\u6C34\u58FA", cat: "Kitchen", emoji: "\u{1FAD6}", sentence: "She boiled water in the kettle for tea." },
+    { word: "toaster", kk: "/\u02C8to\u028Ast\u0259r/", zh: "\u70E4\u9EB5\u5305\u6A5F", cat: "Kitchen", emoji: "\u{1F35E}", sentence: "He put two slices of bread in the toaster." },
+    { word: "blender", kk: "/\u02C8bl\u025Bnd\u0259r/", zh: "\u679C\u6C41\u6A5F", cat: "Kitchen", emoji: "\u{1F964}", sentence: "She made a smoothie with the blender." },
+    { word: "oven", kk: "/\u02C8\u028Cv\u0259n/", zh: "\u70E4\u7BB1", cat: "Kitchen", emoji: "\u{1F355}", sentence: "Preheat the oven to 180 degrees." },
+    { word: "stove", kk: "/sto\u028Av/", zh: "\u7210\u5B50", cat: "Kitchen", emoji: "\u{1F525}", sentence: "The soup is simmering on the stove." },
+    { word: "sink", kk: "/s\u026A\u014Bk/", zh: "\u6C34\u69FD", cat: "Kitchen", emoji: "\u{1F6BF}", sentence: "Rinse the vegetables in the sink." },
+    { word: "cabinet", kk: "/\u02C8k\xE6b\u026An\u026At/", zh: "\u6AE5\u6AC3", cat: "Kitchen", emoji: "\u{1F5C4}\uFE0F", sentence: "The spices are stored in the cabinet." },
+    { word: "drawer", kk: "/dr\u0254r/", zh: "\u62BD\u5C5C", cat: "Kitchen", emoji: "\u{1F5C2}\uFE0F", sentence: "The forks are in the top drawer." },
+    { word: "chopsticks", kk: "/\u02C8t\u0283\u0251p\u02CCst\u026Aks/", zh: "\u7B77\u5B50", cat: "Kitchen", emoji: "\u{1F962}", sentence: "She ate noodles with chopsticks." },
+    { word: "cutting board", kk: "/\u02C8k\u028Ct\u026A\u014B b\u0254rd/", zh: "\u7827\u677F", cat: "Kitchen", emoji: "\u{1FAB5}", sentence: "Always use a cutting board when chopping." },
+    { word: "pot", kk: "/p\u0251t/", zh: "\u934B\u5B50", cat: "Kitchen", emoji: "\u{1FAD5}", sentence: "She cooked rice in a large pot." },
+    { word: "pan", kk: "/p\xE6n/", zh: "\u5E73\u5E95\u934B", cat: "Kitchen", emoji: "\u{1F373}", sentence: "Fry the egg in the pan with butter." },
+    { word: "ladle", kk: "/\u02C8le\u026Adl/", zh: "\u6E6F\u52FA", cat: "Kitchen", emoji: "\u{1F944}", sentence: "Use the ladle to serve the soup." },
+    { word: "apron", kk: "/\u02C8e\u026Apr\u0259n/", zh: "\u570D\u88D9", cat: "Kitchen", emoji: "\u{1F469}\u200D\u{1F373}", sentence: "She tied on her apron before cooking." },
+    { word: "pitcher", kk: "/\u02C8p\u026At\u0283\u0259r/", zh: "\u6C34\u7F50", cat: "Kitchen", emoji: "\u{1FAD7}", sentence: "She poured juice from the pitcher." },
+    { word: "lid", kk: "/l\u026Ad/", zh: "\u934B\u84CB", cat: "Kitchen", emoji: "\u{1FAD9}", sentence: "Put the lid on the pot to keep it warm." },
+    { word: "whisk", kk: "/w\u026Ask/", zh: "\u6253\u86CB\u5668", cat: "Kitchen", emoji: "\u{1F95A}", sentence: "She used a whisk to beat the eggs." },
+    { word: "grater", kk: "/\u02C8gre\u026At\u0259r/", zh: "\u78E8\u83DC\u5668", cat: "Kitchen", emoji: "\u{1F9C0}", sentence: "He grated cheese with the grater." },
+    { word: "peeler", kk: "/\u02C8pil\u0259r/", zh: "\u524A\u76AE\u5200", cat: "Kitchen", emoji: "\u{1F955}", sentence: "Use the peeler to remove the potato skin." },
+    { word: "timer", kk: "/\u02C8ta\u026Am\u0259r/", zh: "\u8A08\u6642\u5668", cat: "Kitchen", emoji: "\u23F1\uFE0F", sentence: "Set the timer for twenty minutes." },
+    { word: "strainer", kk: "/\u02C8stre\u026An\u0259r/", zh: "\u904E\u6FFE\u5668", cat: "Kitchen", emoji: "\u{1FAE7}", sentence: "Pour the soup through the strainer." },
+    { word: "tray", kk: "/tre\u026A/", zh: "\u6258\u76E4", cat: "Kitchen", emoji: "\u{1F371}", sentence: "He carried the drinks on a tray." },
+    { word: "wok", kk: "/w\u0251k/", zh: "\u7092\u934B", cat: "Kitchen", emoji: "\u{1F958}", sentence: "She stir-fried the vegetables in a wok." },
+    { word: "thermos", kk: "/\u02C8\u03B8\u025Crm\u0259s/", zh: "\u4FDD\u6EAB\u74F6", cat: "Kitchen", emoji: "\u2668\uFE0F", sentence: "He filled the thermos with hot coffee." },
+    // Living Room
+    { word: "sofa", kk: "/\u02C8so\u028Af\u0259/", zh: "\u6C99\u767C", cat: "Living Room", emoji: "\u{1F6CB}\uFE0F", sentence: "We sat on the sofa and watched a movie." },
+    { word: "television", kk: "/\u02C8t\u025Bl\u0259\u02CCv\u026A\u0292\u0259n/", zh: "\u96FB\u8996", cat: "Living Room", emoji: "\u{1F4FA}", sentence: "He turned on the television to watch the news." },
+    { word: "bookshelf", kk: "/\u02C8b\u028Ak\u02CC\u0283\u025Blf/", zh: "\u66F8\u67B6", cat: "Living Room", emoji: "\u{1F4DA}", sentence: "Her novels were neatly arranged on the bookshelf." },
+    { word: "curtain", kk: "/\u02C8k\u025Crt\u0259n/", zh: "\u7A97\u7C3E", cat: "Living Room", emoji: "\u{1FA9F}", sentence: "She drew the curtain to keep the sun out." },
+    { word: "carpet", kk: "/\u02C8k\u0251rp\u026At/", zh: "\u5730\u6BEF", cat: "Living Room", emoji: "\u{1F7EB}", sentence: "The dog left muddy paw prints on the carpet." },
+    { word: "cushion", kk: "/\u02C8k\u028A\u0283\u0259n/", zh: "\u5750\u588A", cat: "Living Room", emoji: "\u{1F7E6}", sentence: "I put a soft cushion behind my back." },
+    { word: "remote control", kk: "/r\u026A\u02C8mo\u028At k\u0259n\u02C8tro\u028Al/", zh: "\u9059\u63A7\u5668", cat: "Living Room", emoji: "\u{1F3AE}", sentence: "Can you pass me the remote control to change the channel." },
+    { word: "lamp", kk: "/l\xE6mp/", zh: "\u6AAF\u71C8", cat: "Living Room", emoji: "\u{1F4A1}", sentence: "I read under the lamp before going to bed." },
+    { word: "armchair", kk: "/\u02C8\u0251rm\u02CCt\u0283\u025Br/", zh: "\u6276\u624B\u6905", cat: "Living Room", emoji: "\u{1FA91}", sentence: "Grandpa always naps in his armchair." },
+    { word: "coffee table", kk: "/\u02C8k\u0254fi \u02CCte\u026Ab\u0259l/", zh: "\u8336\u51E0", cat: "Living Room", emoji: "\u{1FAB5}", sentence: "She put her cup on the coffee table." },
+    { word: "fireplace", kk: "/\u02C8fa\u026A\u0259r\u02CCple\u026As/", zh: "\u58C1\u7210", cat: "Living Room", emoji: "\u{1F525}", sentence: "The family gathered around the fireplace." },
+    { word: "clock", kk: "/kl\u0251k/", zh: "\u6642\u9418", cat: "Living Room", emoji: "\u{1F550}", sentence: "The clock on the wall says three o'clock." },
+    { word: "vase", kk: "/ve\u026As/", zh: "\u82B1\u74F6", cat: "Living Room", emoji: "\u{1F337}", sentence: "She put fresh roses in the vase." },
+    { word: "picture frame", kk: "/\u02C8p\u026Akt\u0283\u0259r fre\u026Am/", zh: "\u76F8\u6846", cat: "Living Room", emoji: "\u{1F5BC}\uFE0F", sentence: "The picture frame on the shelf holds a family photo." },
+    { word: "rug", kk: "/r\u028C\u0261/", zh: "\u5C0F\u5730\u6BEF", cat: "Living Room", emoji: "\u{1F7E5}", sentence: "There is a colorful rug under the table." },
+    { word: "fan", kk: "/f\xE6n/", zh: "\u96FB\u98A8\u6247", cat: "Living Room", emoji: "\u{1F300}", sentence: "Turn on the fan because it is too hot." },
+    { word: "air conditioner", kk: "/\u025Br k\u0259n\u02C8d\u026A\u0283\u0259n\u0259r/", zh: "\u51B7\u6C23\u6A5F", cat: "Living Room", emoji: "\u2744\uFE0F", sentence: "Please turn on the air conditioner." },
+    { word: "speaker", kk: "/\u02C8spik\u0259r/", zh: "\u5587\u53ED", cat: "Living Room", emoji: "\u{1F50A}", sentence: "She connected the speaker to her phone." },
+    { word: "window", kk: "/\u02C8w\u026Ando\u028A/", zh: "\u7A97\u6236", cat: "Living Room", emoji: "\u{1FA9F}", sentence: "Open the window to let in some fresh air." },
+    { word: "throw pillow", kk: "/\u03B8ro\u028A \u02C8p\u026Alo\u028A/", zh: "\u62B1\u6795", cat: "Living Room", emoji: "\u{1F9F8}", sentence: "She arranged the throw pillows on the sofa." },
+    { word: "side table", kk: "/sa\u026Ad \u02C8te\u026Ab\u0259l/", zh: "\u908A\u684C", cat: "Living Room", emoji: "\u{1FA91}", sentence: "He put his phone on the side table." },
+    { word: "chandelier", kk: "/\u02CC\u0283\xE6nd\u0259\u02C8l\u026Ar/", zh: "\u540A\u71C8", cat: "Living Room", emoji: "\u{1F4A1}", sentence: "The chandelier lights up the whole room." },
+    { word: "blinds", kk: "/bla\u026Andz/", zh: "\u767E\u8449\u7A97", cat: "Living Room", emoji: "\u{1FA9F}", sentence: "She closed the blinds to block the light." },
+    { word: "floor lamp", kk: "/fl\u0254r l\xE6mp/", zh: "\u843D\u5730\u71C8", cat: "Living Room", emoji: "\u{1F56F}\uFE0F", sentence: "The floor lamp stands next to the armchair." },
+    { word: "mantle", kk: "/\u02C8m\xE6ntl/", zh: "\u58C1\u7210\u67B6", cat: "Living Room", emoji: "\u{1F5BC}\uFE0F", sentence: "She placed candles on the mantle." },
+    { word: "ottoman", kk: "/\u02C8\u0251t\u0259m\u0259n/", zh: "\u8173\u51F3", cat: "Living Room", emoji: "\u{1FA91}", sentence: "He rested his feet on the ottoman." },
+    // Bedroom
+    { word: "mattress", kk: "/\u02C8m\xE6tr\u026As/", zh: "\u5E8A\u588A", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F", sentence: "We bought a new mattress because the old one was too soft." },
+    { word: "pillow", kk: "/\u02C8p\u026Alo\u028A/", zh: "\u6795\u982D", cat: "Bedroom", emoji: "\u{1F634}", sentence: "I fluffed my pillow before lying down." },
+    { word: "blanket", kk: "/\u02C8bl\xE6\u014Bk\u026At/", zh: "\u6BEF\u5B50", cat: "Bedroom", emoji: "\u{1F9E3}", sentence: "She pulled the blanket over her shoulders." },
+    { word: "wardrobe", kk: "/\u02C8w\u0254r\u02CCdro\u028Ab/", zh: "\u8863\u6AC3", cat: "Bedroom", emoji: "\u{1F454}", sentence: "He hung his suit inside the wardrobe." },
+    { word: "nightstand", kk: "/\u02C8na\u026At\u02CCst\xE6nd/", zh: "\u5E8A\u982D\u6AC3", cat: "Bedroom", emoji: "\u{1F319}", sentence: "I keep a glass of water on the nightstand." },
+    { word: "alarm clock", kk: "/\u0259\u02C8l\u0251rm kl\u0251k/", zh: "\u9B27\u9418", cat: "Bedroom", emoji: "\u23F0", sentence: "I set the alarm clock for six in the morning." },
+    { word: "hanger", kk: "/\u02C8h\xE6\u014B\u0259r/", zh: "\u8863\u67B6", cat: "Bedroom", emoji: "\u{1FA9D}", sentence: "Hang your jacket on the hanger in the closet." },
+    { word: "quilt", kk: "/kw\u026Alt/", zh: "\u68C9\u88AB", cat: "Bedroom", emoji: "\u{1F6CC}", sentence: "She wrapped herself in the warm quilt." },
+    { word: "bedsheet", kk: "/\u02C8b\u025Bd\u02CC\u0283it/", zh: "\u5E8A\u55AE", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F", sentence: "She changed the bedsheet every Sunday." },
+    { word: "dresser", kk: "/\u02C8dr\u025Bs\u0259r/", zh: "\u68B3\u599D\u53F0", cat: "Bedroom", emoji: "\u{1F484}", sentence: "She keeps her jewelry on the dresser." },
+    { word: "closet", kk: "/\u02C8kl\u0251z\u026At/", zh: "\u8863\u6AE5", cat: "Bedroom", emoji: "\u{1F457}", sentence: "Her dresses are hanging in the closet." },
+    { word: "desk", kk: "/d\u025Bsk/", zh: "\u66F8\u684C", cat: "Bedroom", emoji: "\u{1F4D6}", sentence: "He studied at his desk every evening." },
+    { word: "bookcase", kk: "/\u02C8b\u028Ak\u02CCke\u026As/", zh: "\u66F8\u6AC3", cat: "Bedroom", emoji: "\u{1F4DA}", sentence: "The bookcase is full of science fiction novels." },
+    { word: "bed frame", kk: "/b\u025Bd fre\u026Am/", zh: "\u5E8A\u67B6", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F", sentence: "They assembled the bed frame on moving day." },
+    { word: "lampshade", kk: "/\u02C8l\xE6mp\u02CC\u0283e\u026Ad/", zh: "\u71C8\u7F69", cat: "Bedroom", emoji: "\u{1F506}", sentence: "The lampshade softens the light at night." },
+    { word: "ceiling fan", kk: "/\u02C8sil\u026A\u014B f\xE6n/", zh: "\u540A\u6247", cat: "Bedroom", emoji: "\u{1F300}", sentence: "The ceiling fan kept the room cool." },
+    { word: "headboard", kk: "/\u02C8h\u025Bd\u02CCb\u0254rd/", zh: "\u5E8A\u982D\u677F", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F", sentence: "The headboard is made of solid oak." },
+    { word: "duvet", kk: "/du\u02C8ve\u026A/", zh: "\u7FBD\u7D68\u88AB", cat: "Bedroom", emoji: "\u{1F634}", sentence: "She pulled the duvet over her head." },
+    { word: "bedside lamp", kk: "/\u02C8b\u025Bd\u02CCsa\u026Ad l\xE6mp/", zh: "\u5E8A\u982D\u71C8", cat: "Bedroom", emoji: "\u{1F56F}\uFE0F", sentence: "She turned off the bedside lamp and fell asleep." },
+    { word: "clothes rack", kk: "/klo\u028A\xF0z r\xE6k/", zh: "\u8863\u7269\u67B6", cat: "Bedroom", emoji: "\u{1FA9D}", sentence: "She hung her coats on the clothes rack." },
+    { word: "storage box", kk: "/\u02C8st\u0254r\u026Ad\u0292 b\u0251ks/", zh: "\u6536\u7D0D\u76D2", cat: "Bedroom", emoji: "\u{1F4E6}", sentence: "She put old photos in a storage box." },
+    { word: "window blind", kk: "/\u02C8w\u026Ando\u028A bla\u026And/", zh: "\u6372\u7C3E", cat: "Bedroom", emoji: "\u{1FA9F}", sentence: "He pulled down the window blind before sleeping." },
+    { word: "floor mat", kk: "/fl\u0254r m\xE6t/", zh: "\u5730\u588A", cat: "Bedroom", emoji: "\u{1F7E9}", sentence: "She stepped on the soft floor mat." },
+    { word: "mirror", kk: "/\u02C8m\u026Ar\u0259r/", zh: "\u93E1\u5B50", cat: "Bedroom", emoji: "\u{1FA9E}", sentence: "She checked her outfit in the mirror." },
+    { word: "jewelry box", kk: "/\u02C8d\u0292u\u0259lri b\u0251ks/", zh: "\u73E0\u5BF6\u76D2", cat: "Bedroom", emoji: "\u{1F48D}", sentence: "She keeps rings in her jewelry box." },
+    { word: "bedspread", kk: "/\u02C8b\u025Bd\u02CCspr\u025Bd/", zh: "\u5E8A\u7F69", cat: "Bedroom", emoji: "\u{1F6CF}\uFE0F", sentence: "She smoothed out the bedspread before guests arrived." },
+    // Bathroom
+    { word: "toothbrush", kk: "/\u02C8tu\u03B8\u02CCbr\u028C\u0283/", zh: "\u7259\u5237", cat: "Bathroom", emoji: "\u{1FAA5}", sentence: "You should replace your toothbrush every three months." },
+    { word: "toothpaste", kk: "/\u02C8tu\u03B8\u02CCpe\u026Ast/", zh: "\u7259\u818F", cat: "Bathroom", emoji: "\u{1F9B7}", sentence: "Squeeze a little toothpaste onto the brush." },
+    { word: "shampoo", kk: "/\u0283\xE6m\u02C8pu/", zh: "\u6D17\u9AEE\u7CBE", cat: "Bathroom", emoji: "\u{1F9F4}", sentence: "She lathered shampoo into her hair." },
+    { word: "towel", kk: "/\u02C8ta\u028A\u0259l/", zh: "\u6BDB\u5DFE", cat: "Bathroom", emoji: "\u{1F3CA}", sentence: "Grab a towel from the rack after your shower." },
+    { word: "bathtub", kk: "/\u02C8b\xE6\u03B8\u02CCt\u028Cb/", zh: "\u6D74\u7F38", cat: "Bathroom", emoji: "\u{1F6C1}", sentence: "He soaked in the bathtub for half an hour." },
+    { word: "toilet", kk: "/\u02C8t\u0254\u026Al\u026At/", zh: "\u99AC\u6876", cat: "Bathroom", emoji: "\u{1F6BD}", sentence: "Remember to flush the toilet after use." },
+    { word: "soap", kk: "/so\u028Ap/", zh: "\u80A5\u7682", cat: "Bathroom", emoji: "\u{1F9FC}", sentence: "Wash your hands with soap for twenty seconds." },
+    { word: "shower", kk: "/\u02C8\u0283a\u028A\u0259r/", zh: "\u6DCB\u6D74\u9593", cat: "Bathroom", emoji: "\u{1F6BF}", sentence: "She takes a shower every morning." },
+    { word: "conditioner", kk: "/k\u0259n\u02C8d\u026A\u0283\u0259n\u0259r/", zh: "\u6F64\u9AEE\u4E73", cat: "Bathroom", emoji: "\u{1F9F4}", sentence: "Use conditioner after shampoo to soften your hair." },
+    { word: "razor", kk: "/\u02C8re\u026Az\u0259r/", zh: "\u522E\u9B0D\u5200", cat: "Bathroom", emoji: "\u{1FA92}", sentence: "He used a razor to shave his beard." },
+    { word: "hair dryer", kk: "/h\u025Br \u02C8dra\u026A\u0259r/", zh: "\u5439\u98A8\u6A5F", cat: "Bathroom", emoji: "\u{1F4A8}", sentence: "She dried her hair with a hair dryer." },
+    { word: "scale", kk: "/ske\u026Al/", zh: "\u9AD4\u91CD\u8A08", cat: "Bathroom", emoji: "\u2696\uFE0F", sentence: "He stood on the scale to check his weight." },
+    { word: "toilet paper", kk: "/\u02C8t\u0254\u026Al\u026At \u02C8pe\u026Ap\u0259r/", zh: "\u885B\u751F\u7D19", cat: "Bathroom", emoji: "\u{1F9FB}", sentence: "We are running out of toilet paper." },
+    { word: "bathrobe", kk: "/\u02C8b\xE6\u03B8\u02CCro\u028Ab/", zh: "\u6D74\u888D", cat: "Bathroom", emoji: "\u{1FA73}", sentence: "She put on her bathrobe after the shower." },
+    { word: "dental floss", kk: "/\u02C8d\u025Bntl fl\u0251s/", zh: "\u7259\u7DDA", cat: "Bathroom", emoji: "\u{1F9B7}", sentence: "Use dental floss to clean between your teeth." },
+    { word: "washcloth", kk: "/\u02C8w\u0251\u0283\u02CCkl\u0254\u03B8/", zh: "\u6D17\u81C9\u5DFE", cat: "Bathroom", emoji: "\u{1F9FD}", sentence: "She wiped her face with a soft washcloth." },
+    { word: "plunger", kk: "/\u02C8pl\u028Cnd\u0292\u0259r/", zh: "\u758F\u901A\u5668", cat: "Bathroom", emoji: "\u{1FAA0}", sentence: "He used a plunger to unclog the toilet." },
+    { word: "towel rack", kk: "/\u02C8ta\u028A\u0259l r\xE6k/", zh: "\u6BDB\u5DFE\u67B6", cat: "Bathroom", emoji: "\u{1FA9D}", sentence: "Hang your towel on the towel rack to dry." },
+    { word: "bath mat", kk: "/b\xE6\u03B8 m\xE6t/", zh: "\u6D74\u5BA4\u9632\u6ED1\u588A", cat: "Bathroom", emoji: "\u{1F7E9}", sentence: "The bath mat prevents slipping on the wet floor." },
+    { word: "medicine cabinet", kk: "/\u02C8m\u025Bds\u0259n \u02C8k\xE6b\u026An\u026At/", zh: "\u85E5\u6AC3", cat: "Bathroom", emoji: "\u{1F48A}", sentence: "She keeps aspirin in the medicine cabinet." },
+    { word: "shower curtain", kk: "/\u02C8\u0283a\u028A\u0259r \u02C8k\u025Crt\u0259n/", zh: "\u6D74\u7C3E", cat: "Bathroom", emoji: "\u{1F6BF}", sentence: "She replaced the old shower curtain with a new one." },
+    { word: "cotton swab", kk: "/\u02C8k\u0251t\u0259n sw\u0251b/", zh: "\u68C9\u82B1\u68D2", cat: "Bathroom", emoji: "\u{1F33F}", sentence: "He cleaned his ears with a cotton swab." },
+    { word: "loofah", kk: "/\u02C8luf\u0259/", zh: "\u6C90\u6D74\u7403", cat: "Bathroom", emoji: "\u{1F9FD}", sentence: "She scrubbed her back with a loofah." },
+    { word: "bathroom mirror", kk: "/\u02C8b\xE6\u03B8rum \u02C8m\u026Ar\u0259r/", zh: "\u6D74\u5BA4\u93E1", cat: "Bathroom", emoji: "\u{1FA9E}", sentence: "He wiped the steam off the bathroom mirror." },
+    { word: "hand soap", kk: "/h\xE6nd so\u028Ap/", zh: "\u6D17\u624B\u6DB2", cat: "Bathroom", emoji: "\u{1F9FC}", sentence: "There is hand soap next to the sink." },
+    { word: "toilet brush", kk: "/\u02C8t\u0254\u026Al\u026At br\u028C\u0283/", zh: "\u99AC\u6876\u5237", cat: "Bathroom", emoji: "\u{1FAA5}", sentence: "He scrubbed the toilet with a toilet brush." },
+    // Study
+    { word: "printer", kk: "/\u02C8pr\u026Ant\u0259r/", zh: "\u5370\u8868\u6A5F", cat: "Study", emoji: "\u{1F5A8}\uFE0F", sentence: "She printed the report on the printer." },
+    { word: "keyboard", kk: "/\u02C8kib\u0254rd/", zh: "\u9375\u76E4", cat: "Study", emoji: "\u2328\uFE0F", sentence: "He typed quickly on the keyboard." },
+    { word: "mouse", kk: "/ma\u028As/", zh: "\u6ED1\u9F20", cat: "Study", emoji: "\u{1F5B1}\uFE0F", sentence: "Move the mouse to the right to click the icon." },
+    { word: "monitor", kk: "/\u02C8m\u0251n\u026At\u0259r/", zh: "\u87A2\u5E55", cat: "Study", emoji: "\u{1F5A5}\uFE0F", sentence: "She adjusted the brightness of the monitor." },
+    { word: "notebook", kk: "/\u02C8no\u028At\u02CCb\u028Ak/", zh: "\u7B46\u8A18\u672C", cat: "Study", emoji: "\u{1F4D3}", sentence: "He wrote his notes in a notebook." },
+    { word: "pencil", kk: "/\u02C8p\u025Bns\u0259l/", zh: "\u925B\u7B46", cat: "Study", emoji: "\u270F\uFE0F", sentence: "She sharpened her pencil before the exam." },
+    { word: "scissors", kk: "/\u02C8s\u026Az\u0259rz/", zh: "\u526A\u5200", cat: "Study", emoji: "\u2702\uFE0F", sentence: "Use scissors to cut along the dotted line." },
+    { word: "stapler", kk: "/\u02C8ste\u026Apl\u0259r/", zh: "\u91D8\u66F8\u6A5F", cat: "Study", emoji: "\u{1F5C2}\uFE0F", sentence: "He used a stapler to fasten the papers." },
+    { word: "calendar", kk: "/\u02C8k\xE6l\u0259nd\u0259r/", zh: "\u65E5\u66C6", cat: "Study", emoji: "\u{1F4C5}", sentence: "She circled the date on the calendar." },
+    { word: "folder", kk: "/\u02C8fo\u028Ald\u0259r/", zh: "\u8CC7\u6599\u593E", cat: "Study", emoji: "\u{1F4C1}", sentence: "Keep all your documents in a folder." },
+    { word: "tape", kk: "/te\u026Ap/", zh: "\u81A0\u5E36", cat: "Study", emoji: "\u{1F4CE}", sentence: "She sealed the box with tape." },
+    { word: "ruler", kk: "/\u02C8rul\u0259r/", zh: "\u5C3A", cat: "Study", emoji: "\u{1F4CF}", sentence: "He measured the paper with a ruler." },
+    { word: "eraser", kk: "/\u026A\u02C8re\u026As\u0259r/", zh: "\u6A61\u76AE\u64E6", cat: "Study", emoji: "\u270F\uFE0F", sentence: "She used the eraser to fix her mistake." },
+    { word: "highlighter", kk: "/\u02C8ha\u026A\u02CCla\u026At\u0259r/", zh: "\u87A2\u5149\u7B46", cat: "Study", emoji: "\u{1F58A}\uFE0F", sentence: "He highlighted the key sentences with a highlighter." },
+    { word: "bookend", kk: "/\u02C8b\u028Ak\u02CC\u025Bnd/", zh: "\u66F8\u64CB", cat: "Study", emoji: "\u{1F4DA}", sentence: "She placed a bookend to keep the books upright." },
+    { word: "desk lamp", kk: "/d\u025Bsk l\xE6mp/", zh: "\u66F8\u684C\u71C8", cat: "Study", emoji: "\u{1F4A1}", sentence: "He turned on the desk lamp to read at night." },
+    { word: "whiteboard", kk: "/\u02C8wa\u026At\u02CCb\u0254rd/", zh: "\u767D\u677F", cat: "Study", emoji: "\u{1F58A}\uFE0F", sentence: "She wrote the schedule on the whiteboard." },
+    { word: "pen holder", kk: "/p\u025Bn \u02C8ho\u028Ald\u0259r/", zh: "\u7B46\u7B52", cat: "Study", emoji: "\u{1F58A}\uFE0F", sentence: "She put her pens in the pen holder." },
+    { word: "shredder", kk: "/\u02C8\u0283r\u025Bd\u0259r/", zh: "\u788E\u7D19\u6A5F", cat: "Study", emoji: "\u{1F4C4}", sentence: "He put the old documents through the shredder." },
+    { word: "paper tray", kk: "/\u02C8pe\u026Ap\u0259r tre\u026A/", zh: "\u6587\u4EF6\u6258\u76E4", cat: "Study", emoji: "\u{1F4C4}", sentence: "Put the printed pages in the paper tray." },
+    { word: "laptop", kk: "/\u02C8l\xE6p\u02CCt\u0251p/", zh: "\u7B46\u8A18\u578B\u96FB\u8166", cat: "Study", emoji: "\u{1F4BB}", sentence: "She worked on her laptop at the desk." },
+    { word: "charger", kk: "/\u02C8t\u0283\u0251rd\u0292\u0259r/", zh: "\u5145\u96FB\u5668", cat: "Study", emoji: "\u{1F50C}", sentence: "Plug in the charger before your battery dies." },
+    // Laundry
+    { word: "washing machine", kk: "/\u02C8w\u0251\u0283\u026A\u014B m\u0259\u02C8\u0283in/", zh: "\u6D17\u8863\u6A5F", cat: "Laundry", emoji: "\u{1FAE7}", sentence: "She put the clothes in the washing machine." },
+    { word: "dryer", kk: "/\u02C8dra\u026A\u0259r/", zh: "\u70D8\u4E7E\u6A5F", cat: "Laundry", emoji: "\u{1F300}", sentence: "The dryer tumbled the wet clothes dry." },
+    { word: "iron", kk: "/\u02C8a\u026A\u0259rn/", zh: "\u71A8\u6597", cat: "Laundry", emoji: "\u{1F455}", sentence: "She used an iron to smooth out her shirt." },
+    { word: "ironing board", kk: "/\u02C8a\u026A\u0259rn\u026A\u014B b\u0254rd/", zh: "\u71D9\u8863\u677F", cat: "Laundry", emoji: "\u{1FA9C}", sentence: "Set up the ironing board before pressing clothes." },
+    { word: "laundry basket", kk: "/\u02C8l\u0254ndri \u02C8b\xE6sk\u026At/", zh: "\u6D17\u8863\u7C43", cat: "Laundry", emoji: "\u{1F9FA}", sentence: "Toss the dirty socks into the laundry basket." },
+    { word: "detergent", kk: "/d\u026A\u02C8t\u025Crd\u0292\u0259nt/", zh: "\u6D17\u8863\u7CBE", cat: "Laundry", emoji: "\u{1F9F4}", sentence: "Add one cup of detergent to the washing machine." },
+    { word: "clothespin", kk: "/\u02C8klo\u028A\xF0z\u02CCp\u026An/", zh: "\u66EC\u8863\u593E", cat: "Laundry", emoji: "\u{1F4CE}", sentence: "She used a clothespin to hang the shirt on the line." },
+    { word: "vacuum cleaner", kk: "/\u02C8v\xE6kju\u0259m \u02C8klin\u0259r/", zh: "\u5438\u5875\u5668", cat: "Laundry", emoji: "\u{1F32A}\uFE0F", sentence: "He ran the vacuum cleaner over the carpet." },
+    { word: "mop", kk: "/m\u0251p/", zh: "\u62D6\u628A", cat: "Laundry", emoji: "\u{1F9F9}", sentence: "She mopped the kitchen floor with a mop." },
+    { word: "broom", kk: "/brum/", zh: "\u6383\u628A", cat: "Laundry", emoji: "\u{1F9F9}", sentence: "He swept the leaves with a broom." },
+    { word: "dustpan", kk: "/\u02C8d\u028Cst\u02CCp\xE6n/", zh: "\u755A\u7B95", cat: "Laundry", emoji: "\u{1FAA3}", sentence: "Sweep the dirt into the dustpan." },
+    { word: "bucket", kk: "/\u02C8b\u028Ck\u026At/", zh: "\u6C34\u6876", cat: "Laundry", emoji: "\u{1FAA3}", sentence: "Fill the bucket with warm soapy water." },
+    { word: "sponge", kk: "/sp\u028Cnd\u0292/", zh: "\u6D77\u7DBF", cat: "Laundry", emoji: "\u{1F9FD}", sentence: "She scrubbed the counter with a sponge." },
+    { word: "dustbin", kk: "/\u02C8d\u028Cst\u02CCb\u026An/", zh: "\u5783\u573E\u6876", cat: "Laundry", emoji: "\u{1F5D1}\uFE0F", sentence: "Throw the rubbish in the dustbin." },
+    { word: "fabric softener", kk: "/\u02C8f\xE6br\u026Ak \u02C8s\u0254f\u0259n\u0259r/", zh: "\u67D4\u8EDF\u7CBE", cat: "Laundry", emoji: "\u{1F9F4}", sentence: "Add fabric softener to make clothes feel soft." },
+    { word: "lint roller", kk: "/l\u026Ant \u02C8ro\u028Al\u0259r/", zh: "\u9664\u6BDB\u6EFE\u8F2A", cat: "Laundry", emoji: "\u{1F504}", sentence: "She used a lint roller to remove pet hair." },
+    { word: "drying rack", kk: "/\u02C8dra\u026A\u026A\u014B r\xE6k/", zh: "\u66EC\u8863\u67B6", cat: "Laundry", emoji: "\u{1FA9C}", sentence: "She hung the wet clothes on the drying rack." },
+    { word: "rubber gloves", kk: "/\u02C8r\u028Cb\u0259r \u0261l\u028Cvz/", zh: "\u6A61\u81A0\u624B\u5957", cat: "Laundry", emoji: "\u{1F9E4}", sentence: "Wear rubber gloves when cleaning the toilet." },
+    { word: "scrub brush", kk: "/skr\u028Cb br\u028C\u0283/", zh: "\u5237\u5B50", cat: "Laundry", emoji: "\u{1FAA5}", sentence: "He scrubbed the tiles with a scrub brush." },
+    { word: "trash bag", kk: "/tr\xE6\u0283 b\xE6\u0261/", zh: "\u5783\u573E\u888B", cat: "Laundry", emoji: "\u{1F5D1}\uFE0F", sentence: "She lined the bin with a trash bag." },
+    { word: "squeegee", kk: "/\u02C8skwid\u0292i/", zh: "\u522E\u6C34\u5668", cat: "Laundry", emoji: "\u{1FA9F}", sentence: "He used a squeegee to clean the window." },
+    { word: "feather duster", kk: "/\u02C8f\u025B\xF0\u0259r \u02C8d\u028Cst\u0259r/", zh: "\u96DE\u6BDB\u64A2\u5B50", cat: "Laundry", emoji: "\u{1FAB6}", sentence: "She dusted the shelves with a feather duster." },
+    // Entrance
+    { word: "doorbell", kk: "/\u02C8d\u0254r\u02CCb\u025Bl/", zh: "\u9580\u9234", cat: "Entrance", emoji: "\u{1F514}", sentence: "She pressed the doorbell and waited." },
+    { word: "doormat", kk: "/\u02C8d\u0254r\u02CCm\xE6t/", zh: "\u8173\u8E0F\u588A", cat: "Entrance", emoji: "\u{1F6AA}", sentence: "Wipe your shoes on the doormat before entering." },
+    { word: "umbrella stand", kk: "/\u028Cm\u02C8br\u025Bl\u0259 st\xE6nd/", zh: "\u96E8\u5098\u67B6", cat: "Entrance", emoji: "\u2602\uFE0F", sentence: "Leave your wet umbrella in the umbrella stand." },
+    { word: "key holder", kk: "/ki \u02C8ho\u028Ald\u0259r/", zh: "\u9470\u5319\u67B6", cat: "Entrance", emoji: "\u{1F511}", sentence: "Hang your keys on the key holder by the door." },
+    { word: "coat rack", kk: "/ko\u028At r\xE6k/", zh: "\u8863\u5E3D\u67B6", cat: "Entrance", emoji: "\u{1F9E5}", sentence: "Hang your coat on the coat rack." },
+    { word: "shoe rack", kk: "/\u0283u r\xE6k/", zh: "\u978B\u67B6", cat: "Entrance", emoji: "\u{1F45F}", sentence: "Put your sneakers on the shoe rack." },
+    { word: "hallway mirror", kk: "/\u02C8h\u0254l\u02CCwe\u026A \u02C8m\u026Ar\u0259r/", zh: "\u7384\u95DC\u93E1", cat: "Entrance", emoji: "\u{1FA9E}", sentence: "She checked herself in the hallway mirror." },
+    { word: "intercom", kk: "/\u02C8\u026Ant\u0259r\u02CCk\u0251m/", zh: "\u5C0D\u8B1B\u6A5F", cat: "Entrance", emoji: "\u{1F4DE}", sentence: "She answered the intercom to let the visitor in." },
+    { word: "door chain", kk: "/d\u0254r t\u0283e\u026An/", zh: "\u9580\u93C8", cat: "Entrance", emoji: "\u{1F517}", sentence: "He fastened the door chain before going to bed." },
+    { word: "light switch", kk: "/la\u026At sw\u026At\u0283/", zh: "\u96FB\u71C8\u958B\u95DC", cat: "Entrance", emoji: "\u{1F4A1}", sentence: "Flip the light switch when you enter the room." },
+    { word: "welcome mat", kk: "/\u02C8w\u025Blk\u0259m m\xE6t/", zh: "\u6B61\u8FCE\u8E0F\u588A", cat: "Entrance", emoji: "\u{1F6AA}", sentence: "They placed a welcome mat outside their front door." },
+    { word: "peephole", kk: "/\u02C8pip\u02CCho\u028Al/", zh: "\u7ABA\u8996\u5B54", cat: "Entrance", emoji: "\u{1F441}\uFE0F", sentence: "She looked through the peephole before opening the door." },
+    { word: "deadbolt", kk: "/\u02C8d\u025Bd\u02CCbo\u028Alt/", zh: "\u6697\u9582", cat: "Entrance", emoji: "\u{1F512}", sentence: "Always lock the deadbolt at night." },
+    { word: "doorknob", kk: "/\u02C8d\u0254r\u02CCn\u0251b/", zh: "\u9580\u628A", cat: "Entrance", emoji: "\u{1F511}", sentence: "Turn the doorknob to open the door." },
+    { word: "door hinge", kk: "/d\u0254r h\u026And\u0292/", zh: "\u9580\u9278\u93C8", cat: "Entrance", emoji: "\u{1F529}", sentence: "The door hinge squeaked when she opened it." },
+    { word: "shoe horn", kk: "/\u02C8\u0283u\u02CCh\u0254rn/", zh: "\u978B\u62D4", cat: "Entrance", emoji: "\u{1F45F}", sentence: "He used a shoe horn to put on his boots." },
+    // Dining Room
+    { word: "dining table", kk: "/\u02C8da\u026An\u026A\u014B \u02C8te\u026Ab\u0259l/", zh: "\u9910\u684C", cat: "Dining Room", emoji: "\u{1F37D}\uFE0F", sentence: "The whole family eats at the dining table." },
+    { word: "chair", kk: "/t\u0283\u025Br/", zh: "\u6905\u5B50", cat: "Dining Room", emoji: "\u{1FA91}", sentence: "Pull up a chair and sit down." },
+    { word: "tablecloth", kk: "/\u02C8te\u026Ab\u0259l\u02CCkl\u0254\u03B8/", zh: "\u684C\u5E03", cat: "Dining Room", emoji: "\u{1F7E9}", sentence: "She spread a white tablecloth on the table." },
+    { word: "napkin", kk: "/\u02C8n\xE6pk\u026An/", zh: "\u9910\u5DFE", cat: "Dining Room", emoji: "\u{1F37D}\uFE0F", sentence: "He wiped his mouth with a napkin." },
+    { word: "candlestick", kk: "/\u02C8k\xE6ndl\u02CCst\u026Ak/", zh: "\u71ED\u53F0", cat: "Dining Room", emoji: "\u{1F56F}\uFE0F", sentence: "She lit the candle in the candlestick." },
+    { word: "centerpiece", kk: "/\u02C8s\u025Bnt\u0259r\u02CCpis/", zh: "\u684C\u98FE", cat: "Dining Room", emoji: "\u{1F337}", sentence: "The fresh flowers make a lovely centerpiece." },
+    { word: "placemat", kk: "/\u02C8ple\u026As\u02CCm\xE6t/", zh: "\u9910\u588A", cat: "Dining Room", emoji: "\u{1F7EB}", sentence: "She set a placemat under each plate." },
+    { word: "serving bowl", kk: "/\u02C8s\u025Crv\u026A\u014B bo\u028Al/", zh: "\u5927\u7897\u516C", cat: "Dining Room", emoji: "\u{1F963}", sentence: "She placed a serving bowl of salad on the table." },
+    { word: "salt shaker", kk: "/s\u0254lt \u02C8\u0283e\u026Ak\u0259r/", zh: "\u9E7D\u7F50", cat: "Dining Room", emoji: "\u{1F9C2}", sentence: "Pass me the salt shaker please." },
+    { word: "pepper mill", kk: "/\u02C8p\u025Bp\u0259r m\u026Al/", zh: "\u80E1\u6912\u7814\u78E8\u7F50", cat: "Dining Room", emoji: "\u{1F336}\uFE0F", sentence: "He ground pepper with the pepper mill." },
+    { word: "wine glass", kk: "/wa\u026An \u0261l\xE6s/", zh: "\u9152\u676F", cat: "Dining Room", emoji: "\u{1F377}", sentence: "She raised her wine glass for a toast." },
+    { word: "mug", kk: "/m\u028C\u0261/", zh: "\u99AC\u514B\u676F", cat: "Dining Room", emoji: "\u2615", sentence: "He drank coffee from a large mug." },
+    { word: "fork", kk: "/f\u0254rk/", zh: "\u53C9\u5B50", cat: "Dining Room", emoji: "\u{1F374}", sentence: "Use your fork to eat the salad." },
+    { word: "knife", kk: "/na\u026Af/", zh: "\u5200\u5B50", cat: "Dining Room", emoji: "\u{1F52A}", sentence: "He used a knife to cut the steak." },
+    { word: "spoon", kk: "/spun/", zh: "\u6E6F\u5319", cat: "Dining Room", emoji: "\u{1F944}", sentence: "She stirred the soup with a spoon." },
+    { word: "bread basket", kk: "/br\u025Bd \u02C8b\xE6sk\u026At/", zh: "\u9EB5\u5305\u7C43", cat: "Dining Room", emoji: "\u{1F35E}", sentence: "She passed the bread basket around the table." },
+    { word: "soup bowl", kk: "/sup bo\u028Al/", zh: "\u6E6F\u7897", cat: "Dining Room", emoji: "\u{1F963}", sentence: "He filled the soup bowl with hot broth." },
+    { word: "gravy boat", kk: "/\u02C8\u0261re\u026Avi bo\u028At/", zh: "\u91AC\u6599\u58FA", cat: "Dining Room", emoji: "\u{1FAD9}", sentence: "She poured gravy from the gravy boat." },
+    { word: "trivet", kk: "/\u02C8tr\u026Av\u026At/", zh: "\u9694\u71B1\u588A", cat: "Dining Room", emoji: "\u{1F525}", sentence: "Put the hot pot on the trivet." },
+    { word: "lazy susan", kk: "/\u02C8le\u026Azi \u02C8suz\u0259n/", zh: "\u8F49\u76E4", cat: "Dining Room", emoji: "\u{1F504}", sentence: "Spin the lazy susan to share the dishes." },
+    // Garden
+    { word: "flowerpot", kk: "/\u02C8fla\u028A\u0259r\u02CCp\u0251t/", zh: "\u82B1\u76C6", cat: "Garden", emoji: "\u{1FAB4}", sentence: "She watered the plant in the flowerpot." },
+    { word: "garden hose", kk: "/\u02C8\u0261\u0251rd\u0259n ho\u028Az/", zh: "\u6F86\u6C34\u7BA1", cat: "Garden", emoji: "\u{1F4A7}", sentence: "He used a garden hose to water the lawn." },
+    { word: "watering can", kk: "/\u02C8w\u0254t\u0259r\u026A\u014B k\xE6n/", zh: "\u7051\u6C34\u58FA", cat: "Garden", emoji: "\u{1FAE7}", sentence: "She filled the watering can to water the flowers." },
+    { word: "lawnmower", kk: "/\u02C8l\u0254n\u02CCmo\u028A\u0259r/", zh: "\u5272\u8349\u6A5F", cat: "Garden", emoji: "\u{1F33F}", sentence: "He pushed the lawnmower across the grass." },
+    { word: "rake", kk: "/re\u026Ak/", zh: "\u8019\u5B50", cat: "Garden", emoji: "\u{1F342}", sentence: "She used a rake to gather the fallen leaves." },
+    { word: "shovel", kk: "/\u02C8\u0283\u028Cv\u0259l/", zh: "\u93DF\u5B50", cat: "Garden", emoji: "\u26CF\uFE0F", sentence: "He dug a hole in the garden with a shovel." },
+    { word: "wheelbarrow", kk: "/\u02C8wil\u02CCb\xE6ro\u028A/", zh: "\u624B\u63A8\u8ECA", cat: "Garden", emoji: "\u{1F6D2}", sentence: "He moved the soil with a wheelbarrow." },
+    { word: "garden gloves", kk: "/\u02C8\u0261\u0251rd\u0259n \u0261l\u028Cvz/", zh: "\u5712\u85DD\u624B\u5957", cat: "Garden", emoji: "\u{1F9E4}", sentence: "She put on garden gloves before pruning the roses." },
+    { word: "trowel", kk: "/\u02C8tra\u028A\u0259l/", zh: "\u5C0F\u93DF\u5B50", cat: "Garden", emoji: "\u{1F331}", sentence: "She used a trowel to plant the seedlings." },
+    { word: "sprinkler", kk: "/\u02C8spr\u026A\u014Bkl\u0259r/", zh: "\u7051\u6C34\u5668", cat: "Garden", emoji: "\u{1F4A6}", sentence: "The sprinkler kept the lawn green all summer." },
+    { word: "pruning shears", kk: "/\u02C8prun\u026A\u014B \u0283\u026Arz/", zh: "\u4FEE\u679D\u526A", cat: "Garden", emoji: "\u2702\uFE0F", sentence: "She used pruning shears to trim the hedge." },
+    { word: "bird feeder", kk: "/b\u025Crd \u02C8fid\u0259r/", zh: "\u9935\u9CE5\u5668", cat: "Garden", emoji: "\u{1F426}", sentence: "He filled the bird feeder with seeds." },
+    // Garage
+    { word: "toolbox", kk: "/\u02C8tul\u02CCb\u0251ks/", zh: "\u5DE5\u5177\u7BB1", cat: "Garage", emoji: "\u{1F9F0}", sentence: "He grabbed the toolbox to fix the shelf." },
+    { word: "hammer", kk: "/\u02C8h\xE6m\u0259r/", zh: "\u9318\u5B50", cat: "Garage", emoji: "\u{1F528}", sentence: "He used a hammer to nail the picture frame." },
+    { word: "screwdriver", kk: "/\u02C8skru\u02CCdra\u026Av\u0259r/", zh: "\u87BA\u7D72\u8D77\u5B50", cat: "Garage", emoji: "\u{1FA9B}", sentence: "She tightened the screw with a screwdriver." },
+    { word: "wrench", kk: "/r\u025Bnt\u0283/", zh: "\u6273\u624B", cat: "Garage", emoji: "\u{1F527}", sentence: "He used a wrench to fix the pipe." },
+    { word: "drill", kk: "/dr\u026Al/", zh: "\u96FB\u947D", cat: "Garage", emoji: "\u{1F527}", sentence: "She used a drill to make a hole in the wall." },
+    { word: "ladder", kk: "/\u02C8l\xE6d\u0259r/", zh: "\u68AF\u5B50", cat: "Garage", emoji: "\u{1FA9C}", sentence: "He climbed the ladder to change the light bulb." },
+    { word: "extension cord", kk: "/\u026Ak\u02C8st\u025Bn\u0283\u0259n k\u0254rd/", zh: "\u5EF6\u9577\u7DDA", cat: "Garage", emoji: "\u{1F50C}", sentence: "She plugged the lamp into the extension cord." },
+    { word: "tape measure", kk: "/te\u026Ap \u02C8m\u025B\u0292\u0259r/", zh: "\u6372\u5C3A", cat: "Garage", emoji: "\u{1F4CF}", sentence: "He measured the wall with a tape measure." },
+    { word: "sandpaper", kk: "/\u02C8s\xE6nd\u02CCpe\u026Ap\u0259r/", zh: "\u7802\u7D19", cat: "Garage", emoji: "\u{1FAA8}", sentence: "She smoothed the surface with sandpaper." },
+    { word: "paintbrush", kk: "/\u02C8pe\u026Ant\u02CCbr\u028C\u0283/", zh: "\u6CB9\u6F06\u5237", cat: "Garage", emoji: "\u{1F58C}\uFE0F", sentence: "He dipped the paintbrush into the can." },
+    { word: "nails", kk: "/ne\u026Alz/", zh: "\u91D8\u5B50", cat: "Garage", emoji: "\u{1F4CD}", sentence: "She hammered the nails into the wood." },
+    { word: "work bench", kk: "/w\u025Crk b\u025Bnt\u0283/", zh: "\u5DE5\u4F5C\u53F0", cat: "Garage", emoji: "\u{1FAB5}", sentence: "He assembled the furniture on the work bench." },
+    { word: "storage shelf", kk: "/\u02C8st\u0254r\u026Ad\u0292 \u0283\u025Blf/", zh: "\u5132\u7269\u67B6", cat: "Garage", emoji: "\u{1F4E6}", sentence: "She organized the boxes on the storage shelf." },
+    { word: "power strip", kk: "/\u02C8pa\u028A\u0259r str\u026Ap/", zh: "\u96FB\u6E90\u677F", cat: "Garage", emoji: "\u{1F50C}", sentence: "All devices are plugged into the power strip." },
+    { word: "cable ties", kk: "/\u02C8ke\u026Ab\u0259l ta\u026Az/", zh: "\u675F\u7DDA\u5E36", cat: "Garage", emoji: "\u{1F517}", sentence: "He bundled the wires with cable ties." },
+    { word: "utility knife", kk: "/ju\u02C8t\u026Al\u026Ati na\u026Af/", zh: "\u7F8E\u5DE5\u5200", cat: "Garage", emoji: "\u{1F52A}", sentence: "She cut open the box with a utility knife." },
+    { word: "level", kk: "/\u02C8l\u025Bv\u0259l/", zh: "\u6C34\u5E73\u5100", cat: "Garage", emoji: "\u{1F4D0}", sentence: "He used a level to make sure the shelf was straight." },
+    { word: "stool", kk: "/stul/", zh: "\u51F3\u5B50", cat: "Garage", emoji: "\u{1FA91}", sentence: "She stood on the stool to reach the top shelf." }
+  ];
   var MASTERY_GOAL = 7;
   var QUIZ_WORDS = 10;
   var REPEAT = 2;
-  var CAT_COLOR = {
-    Kitchen: "#f97316",
-    "Living Room": "#8b5cf6",
-    Bedroom: "#ec4899",
-    Bathroom: "#06b6d4",
-    Study: "#22c55e",
-    Laundry: "#eab308",
-    Entrance: "#94a3b8",
-    "Dining Room": "#f43f5e",
-    Garden: "#10b981",
-    Garage: "#6366f1"
-  };
-  var CAT_EMOJI = {
-    Kitchen: "\u{1F373}",
-    "Living Room": "\u{1F6CB}\uFE0F",
-    Bedroom: "\u{1F6CF}\uFE0F",
-    Bathroom: "\u{1F6BF}",
-    Study: "\u{1F4D6}",
-    Laundry: "\u{1FAE7}",
-    Entrance: "\u{1F6AA}",
-    "Dining Room": "\u{1F37D}\uFE0F",
-    Garden: "\u{1F33F}",
-    Garage: "\u{1F9F0}"
-  };
-  var ALL_CATS = ["All", ...Object.keys(CAT_COLOR)];
+  var CAT_COLOR = { "Kitchen": "#f97316", "Living Room": "#8b5cf6", "Bedroom": "#ec4899", "Bathroom": "#06b6d4", "Study": "#22c55e", "Laundry": "#eab308", "Entrance": "#94a3b8", "Dining Room": "#f43f5e", "Garden": "#10b981", "Garage": "#6366f1" };
+  var CAT_EMOJI = { "Kitchen": "\u{1F373}", "Living Room": "\u{1F6CB}\uFE0F", "Bedroom": "\u{1F6CF}\uFE0F", "Bathroom": "\u{1F6BF}", "Study": "\u{1F4D6}", "Laundry": "\u{1FAE7}", "Entrance": "\u{1F6AA}", "Dining Room": "\u{1F37D}\uFE0F", "Garden": "\u{1F33F}", "Garage": "\u{1F9F0}" };
   var USER_COLORS = ["#f97316", "#8b5cf6", "#ec4899", "#06b6d4", "#22c55e"];
   var USER_AVATARS = ["\u{1F431}", "\u{1F436}", "\u{1F438}", "\u{1F43C}", "\u{1F98A}"];
   var MAX_USERS = 5;
@@ -13266,7 +13018,14 @@ input,button{font-family:system-ui,sans-serif;}
     const r = parseInt(hex.slice(1, 3), 16), g = parseInt(hex.slice(3, 5), 16), b = parseInt(hex.slice(5, 7), 16);
     return `rgba(${r},${g},${b},${a})`;
   }
-  async function loadUsers() {
+  function makeUser(name, idx) {
+    return { id: Date.now() + Math.random(), name, avatarIdx: idx % USER_AVATARS.length, mastery: {}, dailyLog: {} };
+  }
+  function todayKey() {
+    const d = /* @__PURE__ */ new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  }
+  function loadUsers() {
     try {
       const r = localStorage.getItem("hs_users");
       if (r) return JSON.parse(r);
@@ -13274,14 +13033,27 @@ input,button{font-family:system-ui,sans-serif;}
     }
     return null;
   }
-  async function saveUsers(users) {
+  function saveUsers(u) {
     try {
-      localStorage.setItem("hs_users", JSON.stringify(users));
+      localStorage.setItem("hs_users", JSON.stringify(u));
     } catch (e) {
     }
   }
-  function makeUser(name, idx) {
-    return { id: Date.now() + Math.random(), name, avatarIdx: idx % USER_AVATARS.length, mastery: {} };
+  var SR_INTERVALS_HOURS = [0, 12, 12, 24, 48, 96, 168];
+  function getMasteryCount(m) {
+    return typeof m === "object" && m !== null ? m.count ?? 0 : m ?? 0;
+  }
+  function getMasteryLastSeen(m) {
+    return typeof m === "object" && m !== null ? m.lastSeen ?? 0 : 0;
+  }
+  function isWordDue(masteryEntry) {
+    const count = getMasteryCount(masteryEntry);
+    if (count === 0) return true;
+    if (count >= MASTERY_GOAL) return false;
+    const lastSeen = getMasteryLastSeen(masteryEntry);
+    const intervalHours = SR_INTERVALS_HOURS[count] ?? 168;
+    const intervalMs = intervalHours * 60 * 60 * 1e3;
+    return Date.now() - lastSeen >= intervalMs;
   }
   function SpeakBtn({ text, label, rate = 0.82, small }) {
     const [on, setOn] = (0, import_react.useState)(false);
@@ -13296,21 +13068,7 @@ input,button{font-family:system-ui,sans-serif;}
       u.onend = () => setOn(false);
       window.speechSynthesis.speak(u);
     }
-    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: go, style: {
-      cursor: "pointer",
-      border: "none",
-      background: on ? "rgba(56,189,248,0.3)" : "rgba(56,189,248,0.12)",
-      color: on ? "#38bdf8" : "#7dd3fc",
-      borderRadius: small ? 7 : 9,
-      padding: small ? "4px 9px" : "7px 13px",
-      fontSize: small ? 11 : 13,
-      fontWeight: 600,
-      flexShrink: 0,
-      display: "inline-flex",
-      alignItems: "center",
-      gap: 4,
-      transition: "all 0.15s"
-    }, children: [
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: go, style: { cursor: "pointer", border: "none", background: on ? "rgba(56,189,248,0.3)" : "rgba(56,189,248,0.12)", color: on ? "#38bdf8" : "#7dd3fc", borderRadius: small ? 7 : 9, padding: small ? "4px 9px" : "7px 13px", fontSize: small ? 11 : 13, fontWeight: 600, flexShrink: 0, display: "inline-flex", alignItems: "center", gap: 4 }, children: [
       on ? "\u{1F50A}" : "\u{1F508}",
       label && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: label })
     ] });
@@ -13323,17 +13081,114 @@ input,button{font-family:system-ui,sans-serif;}
     ] }, i)) });
   }
   function PBar({ v, t, color }) {
-    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { flex: 1, height: 4, background: "rgba(255,255,255,0.08)", borderRadius: 2 }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: {
-      height: "100%",
-      width: `${Math.min(v / t * 100, 100)}%`,
-      background: `linear-gradient(90deg,${color},#38bdf8)`,
-      borderRadius: 2,
-      transition: "width 0.3s"
-    } }) });
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { flex: 1, height: 4, background: "rgba(255,255,255,0.08)", borderRadius: 2 }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { height: "100%", width: `${Math.min(v / t * 100, 100)}%`, background: `linear-gradient(90deg,${color},#38bdf8)`, borderRadius: 2, transition: "width 0.3s" } }) });
   }
-  function StudyScreen({ queue, onFinish }) {
+  function InlineQuiz({ w, color, onDone }) {
+    const [type] = (0, import_react.useState)(() => shuffle(["spell", "choice", "fill"])[0]);
+    const [input, setInput] = (0, import_react.useState)("");
+    const [choices] = (0, import_react.useState)(() => getChoices(w.word));
+    const [selected, setSelected] = (0, import_react.useState)(null);
+    const [status, setStatus] = (0, import_react.useState)(null);
+    const [attempts, setAttempts] = (0, import_react.useState)(0);
+    const inputRef = (0, import_react.useRef)(null);
+    (0, import_react.useEffect)(() => {
+      if (type === "spell") setTimeout(() => inputRef.current?.focus(), 100);
+    }, []);
+    function checkSpell() {
+      if (status === "correct") return;
+      if (input.trim().toLowerCase() === w.word.toLowerCase()) {
+        setStatus("correct");
+      } else {
+        setAttempts((a) => a + 1);
+        setStatus("wrong");
+        setTimeout(() => setStatus(null), 800);
+      }
+    }
+    function checkChoice(c) {
+      if (status) return;
+      setSelected(c);
+      if (c === w.word) setStatus("correct");
+      else {
+        setStatus("wrong");
+        setTimeout(() => {
+          setStatus(null);
+          setSelected(null);
+          setAttempts((a) => a + 1);
+        }, 900);
+      }
+    }
+    function checkFill() {
+      if (status === "correct") return;
+      if (input.trim().toLowerCase() === w.word.toLowerCase()) {
+        setStatus("correct");
+      } else {
+        setAttempts((a) => a + 1);
+        setStatus("wrong");
+        setTimeout(() => setStatus(null), 800);
+      }
+    }
+    const labels = { spell: "\u270F\uFE0F \u62FC\u51FA\u9019\u500B\u5B57", choice: "\u{1F3AF} \u9078\u51FA\u6B63\u78BA\u7684\u5B57", fill: "\u{1F4DD} \u586B\u5165\u7A7A\u683C" };
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { marginTop: 14, padding: "14px", background: "rgba(0,0,0,0.3)", borderRadius: 14, border: `1px solid ${color}44` }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, fontWeight: 700, color, marginBottom: 10, letterSpacing: 1 }, children: labels[type] }),
+      type === "spell" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 8, marginBottom: 8 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { ref: inputRef, value: input, onChange: (e) => {
+            setInput(e.target.value);
+            setStatus(null);
+          }, onKeyDown: (e) => {
+            if (e.key === "Enter") checkSpell();
+          }, disabled: status === "correct", placeholder: "\u8F38\u5165\u82F1\u6587...", style: { flex: 1, padding: "11px 13px", fontSize: 15, letterSpacing: 2, fontFamily: "monospace", background: "rgba(255,255,255,0.06)", border: `1px solid ${status === "correct" ? "#86efac" : status === "wrong" ? "#f97316" : "rgba(255,255,255,0.15)"}`, borderRadius: 9, color: "#f0f0ff", outline: "none" } }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: checkSpell, style: { padding: "11px 16px", background: "linear-gradient(135deg,#8b5cf6,#6366f1)", border: "none", color: "#fff", borderRadius: 9, cursor: "pointer", fontSize: 16 }, children: "\u2713" })
+        ] }),
+        status === "wrong" && input && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", gap: 3, flexWrap: "wrap" }, children: w.word.split("").map((ch, i) => {
+          const u = input[i], ok = u === ch, miss = !u;
+          return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontSize: 13, width: 21, height: 25, display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 4, fontWeight: 700, background: miss ? "rgba(255,255,255,0.04)" : ok ? "rgba(134,239,172,0.2)" : "rgba(249,115,22,0.2)", color: miss ? "#333" : ok ? "#86efac" : "#f97316" }, children: miss ? "?" : ok ? ch : u }, i);
+        }) })
+      ] }),
+      type === "choice" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }, children: choices.map((c) => {
+        const isRight = c === w.word, isSel = c === selected;
+        let bg = "rgba(255,255,255,0.06)", border = "1px solid rgba(255,255,255,0.1)";
+        if (isSel && status === "correct") {
+          bg = "rgba(134,239,172,0.18)";
+          border = "1px solid #86efac";
+        }
+        if (isSel && status === "wrong") {
+          bg = "rgba(249,115,22,0.18)";
+          border = "1px solid #f97316";
+        }
+        if (!isSel && status === "wrong" && isRight) {
+          bg = "rgba(134,239,172,0.1)";
+          border = "1px solid #86efac66";
+        }
+        return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => checkChoice(c), style: { padding: "11px 8px", background: bg, border, color: "#f0f0ff", borderRadius: 9, fontFamily: "monospace", fontSize: 12, fontWeight: 700, cursor: "pointer", letterSpacing: 1 }, children: c }, c);
+      }) }),
+      type === "fill" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 12, color: "rgba(255,255,255,0.5)", lineHeight: 1.8, marginBottom: 8 }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sent, { sentence: w.sentence, word: w.word, revealed: false, color }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 8 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { ref: inputRef, value: input, onChange: (e) => {
+            setInput(e.target.value);
+            setStatus(null);
+          }, onKeyDown: (e) => {
+            if (e.key === "Enter") checkFill();
+          }, disabled: status === "correct", placeholder: "\u586B\u5165\u7A7A\u683C...", style: { flex: 1, padding: "11px 13px", fontSize: 15, letterSpacing: 2, fontFamily: "monospace", background: "rgba(255,255,255,0.06)", border: `1px solid ${status === "correct" ? "#86efac" : status === "wrong" ? "#f97316" : "rgba(255,255,255,0.15)"}`, borderRadius: 9, color: "#f0f0ff", outline: "none" } }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: checkFill, style: { padding: "11px 16px", background: "linear-gradient(135deg,#8b5cf6,#6366f1)", border: "none", color: "#fff", borderRadius: 9, cursor: "pointer", fontSize: 16 }, children: "\u2713" })
+        ] })
+      ] }),
+      status === "correct" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { marginTop: 10 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { color: "#86efac", fontWeight: 700, marginBottom: 6 }, children: "\u{1F389} \u6B63\u78BA\uFF01" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onDone, style: { width: "100%", padding: "11px", background: "linear-gradient(135deg,#86efac,#38bdf8)", border: "none", color: "#061a10", borderRadius: 9, fontWeight: 800, fontSize: 13, cursor: "pointer" }, children: "\u7E7C\u7E8C \u2192" })
+      ] }),
+      status === "wrong" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { marginTop: 8, color: "#f97316", fontWeight: 700, fontSize: 12 }, children: [
+        "\u274C \u518D\u8A66\u4E00\u6B21\uFF01",
+        attempts >= 2 ? ` (\u7B54\u6848\uFF1A${w.word})` : ""
+      ] })
+    ] });
+  }
+  function StudyScreen({ queue, round = 1, onFinish }) {
     const [idx, setIdx] = (0, import_react.useState)(0);
     const [flipped, setFlipped] = (0, import_react.useState)(false);
+    const [showQuiz, setShowQuiz] = (0, import_react.useState)(false);
+    const seenRef = (0, import_react.useRef)(/* @__PURE__ */ new Set());
     const w = queue[idx];
     const color = CAT_COLOR[w.cat] ?? "#38bdf8";
     (0, import_react.useEffect)(() => {
@@ -13343,30 +13198,47 @@ input,button{font-family:system-ui,sans-serif;}
         u.lang = "en-US";
         u.rate = 0.75;
         window.speechSynthesis?.speak(u);
+        seenRef.current.add(idx);
       }
     }, [flipped, w.word]);
     function go(dir) {
       const next = idx + dir;
       if (next < 0 || next >= queue.length) return;
+      setShowQuiz(false);
       setFlipped(false);
-      setTimeout(() => setIdx(next), 60);
+      setIdx(next);
     }
+    function handleNext() {
+      if (round === 2 && flipped && !showQuiz) {
+        setShowQuiz(true);
+        return;
+      }
+      setShowQuiz(false);
+      if (idx + 1 >= queue.length) onFinish();
+      else go(1);
+    }
+    const nextLabel = () => {
+      if (idx + 1 >= queue.length) return round === 2 && flipped && !showQuiz ? "\u5148\u7B54\u4E00\u984C \u2192" : "\u5B8C\u6210 \u2705";
+      if (round === 2 && flipped && !showQuiz) return "\u5148\u7B54\u4E00\u984C \u2192";
+      return "\u4E0B\u4E00\u5F35 \u2192";
+    };
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { maxWidth: 500, margin: "0 auto", padding: "20px 16px" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 18 }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 16 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { fontSize: 12, color: "#555", whiteSpace: "nowrap" }, children: [
           idx + 1,
           "/",
           queue.length
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PBar, { v: idx + 1, t: queue.length, color }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onFinish, style: { background: "none", border: "1px solid rgba(255,255,255,0.12)", color: "#666", borderRadius: 7, padding: "4px 11px", fontSize: 11, cursor: "pointer", whiteSpace: "nowrap" }, children: "\u8DF3\u904E\u2192\u6E2C\u9A57" })
+        round === 2 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 11, fontWeight: 700, color: "#f97316", background: "rgba(249,115,22,0.12)", padding: "3px 8px", borderRadius: 6, whiteSpace: "nowrap" }, children: "\u7B2C2\u8F2A \u908A\u5B78\u908A\u8003" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onFinish, style: { background: "none", border: "1px solid rgba(255,255,255,0.12)", color: "#666", borderRadius: 7, padding: "4px 11px", fontSize: 11, cursor: "pointer", whiteSpace: "nowrap" }, children: round === 1 ? "\u8DF3\u904E\u2192\u7B2C2\u8F2A" : "\u8DF3\u904E\u2192\u6210\u7E3E" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { onClick: () => setFlipped((f) => !f), style: {
         borderRadius: 20,
         padding: "28px 22px",
         marginBottom: 16,
         cursor: "pointer",
-        minHeight: 270,
+        minHeight: 260,
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -13379,24 +13251,12 @@ input,button{font-family:system-ui,sans-serif;}
       }, children: !flipped ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 54, marginBottom: 12 }, children: w.emoji }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 24, fontWeight: 800, color: "#f0f0ff", marginBottom: 4 }, children: w.zh }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-          display: "inline-block",
-          fontSize: 10,
-          fontWeight: 700,
-          letterSpacing: 2,
-          textTransform: "uppercase",
-          padding: "3px 10px",
-          borderRadius: 20,
-          background: c2a(color, 0.15),
-          color,
-          border: `1px solid ${color}44`,
-          marginTop: 8
-        }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "inline-block", fontSize: 10, fontWeight: 700, letterSpacing: 2, textTransform: "uppercase", padding: "3px 10px", borderRadius: 20, background: c2a(color, 0.15), color, border: `1px solid ${color}44`, marginTop: 8 }, children: [
           CAT_EMOJI[w.cat],
           " ",
           w.cat
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#444", marginTop: 14 }, children: "\u9EDE\u64CA\u7FFB\u9762\u30FB\u81EA\u52D5\u6717\u8B80\u767C\u97F3 \u{1F446}" })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#444", marginTop: 14 }, children: "\u9EDE\u64CA\u7FFB\u9762\u30FB\u81EA\u52D5\u6717\u8B80 \u{1F446}" })
       ] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: "uppercase", color, marginBottom: 6 }, children: [
           CAT_EMOJI[w.cat],
@@ -13406,82 +13266,64 @@ input,button{font-family:system-ui,sans-serif;}
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontFamily: "monospace", fontSize: 26, fontWeight: 700, color: "#f0f0ff", letterSpacing: 2, marginBottom: 2 }, children: w.word }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontFamily: "monospace", fontSize: 12, color: "#888", marginBottom: 12, letterSpacing: 1 }, children: w.kk }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 8, marginBottom: 14, flexWrap: "wrap", justifyContent: "center" }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.word, label: "\u5FF5\u55AE\u5B57\uFF08\u6162\uFF09", rate: 0.6 }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.word, label: "\u5FF5\u55AE\u5B57", rate: 0.6 }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.sentence, label: "\u5FF5\u4F8B\u53E5" })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-          fontSize: 13,
-          color: "rgba(255,255,255,0.6)",
-          lineHeight: 1.8,
-          padding: "10px 14px",
-          background: "rgba(0,0,0,0.2)",
-          borderRadius: 10,
-          borderLeft: `3px solid ${color}`,
-          textAlign: "left",
-          width: "100%"
-        }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#555", marginBottom: 3, letterSpacing: 1 }, children: "\u4F8B\u53E5" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 13, color: "rgba(255,255,255,0.6)", lineHeight: 1.8, padding: "10px 14px", background: "rgba(0,0,0,0.2)", borderRadius: 10, borderLeft: `3px solid ${color}`, textAlign: "left", width: "100%" }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#555", marginBottom: 3 }, children: "\u4F8B\u53E5" }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sent, { sentence: w.sentence, word: w.word, revealed: true, color })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#333", marginTop: 10 }, children: "\u7FFB\u9762\u6642\u81EA\u52D5\u5FF5\u30FB\u6309\u9215\u53EF\u91CD\u8907" })
+        ] })
       ] }) }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 10 }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => go(-1), disabled: idx === 0, style: {
-          padding: "12px 18px",
-          background: "rgba(255,255,255,0.06)",
-          border: "1px solid rgba(255,255,255,0.1)",
-          color: idx === 0 ? "#2a2a2a" : "#aaa",
-          borderRadius: 12,
-          cursor: idx === 0 ? "default" : "pointer",
-          fontSize: 18
-        }, children: "\u2039" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => {
-          if (idx + 1 >= queue.length) onFinish();
-          else go(1);
-        }, style: {
-          flex: 1,
-          padding: "13px",
-          background: "linear-gradient(135deg,#86efac,#38bdf8)",
-          border: "none",
-          color: "#061a10",
-          borderRadius: 12,
-          cursor: "pointer",
-          fontWeight: 800,
-          fontSize: 14
-        }, children: idx + 1 >= queue.length ? "\u958B\u59CB\u6E2C\u9A57 \u{1F680}" : "\u4E0B\u4E00\u5F35 \u2192" })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { textAlign: "center", marginTop: 8, fontSize: 11, color: "#333" }, children: "\u7FFB\u9762\u5F8C\u4E0D\u6703\u81EA\u52D5\u8DF3\uFF0C\u4F60\u6C7A\u5B9A\u4F55\u6642\u7E7C\u7E8C" })
+      showQuiz && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(InlineQuiz, { w, color, onDone: () => {
+        setShowQuiz(false);
+        if (idx + 1 >= queue.length) onFinish();
+        else go(1);
+      } }),
+      !showQuiz && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 10 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => go(-1), disabled: idx === 0, style: { padding: "12px 18px", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: idx === 0 ? "#2a2a2a" : "#aaa", borderRadius: 12, cursor: idx === 0 ? "default" : "pointer", fontSize: 18 }, children: "\u2039" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: handleNext, style: { flex: 1, padding: "13px", background: "linear-gradient(135deg,#86efac,#38bdf8)", border: "none", color: "#061a10", borderRadius: 12, cursor: "pointer", fontWeight: 800, fontSize: 14 }, children: nextLabel() })
+      ] })
     ] });
   }
   function QuizScreen({ queue, mode, mastery, onFinish }) {
     const fullQueue = (0, import_react.useState)(() => {
-      const a = shuffle([...queue]), b = shuffle([...queue]);
-      const out = [], pool2 = [...b];
+      const a = shuffle([...queue]), b = shuffle([...queue]), out = [], p2 = [...b];
       for (let i = 0; i < a.length; i++) {
         out.push(a[i]);
-        let j = pool2.findIndex((x) => x.word !== a[i].word);
+        let j = p2.findIndex((x) => x.word !== a[i].word);
         if (j === -1) j = 0;
-        out.push(pool2.splice(j, 1)[0]);
+        out.push(p2.splice(j, 1)[0]);
       }
       return out;
     })[0];
+    const [queueWithRetry, setQueueWithRetry] = (0, import_react.useState)(() => fullQueue);
     const [idx, setIdx] = (0, import_react.useState)(0);
     const [input, setInput] = (0, import_react.useState)("");
     const [status, setStatus] = (0, import_react.useState)(null);
     const [attempts, setAttempts] = (0, import_react.useState)(0);
     const [hintLen, setHintLen] = (0, import_react.useState)(0);
-    const [choiceMap] = (0, import_react.useState)(() => Object.fromEntries(queue.map((w2) => [w2.word, getChoices(w2.word)])));
+    const [questionTypes] = (0, import_react.useState)(() => Object.fromEntries(
+      queue.map((w2) => [w2.word, Math.random() < 0.5 ? "zh2en" : "en2zh"])
+    ));
+    const [choiceMap] = (0, import_react.useState)(() => Object.fromEntries(queue.map((w2) => {
+      if (questionTypes[w2.word] === "en2zh") {
+        const wrongZh = shuffle(WORDS.filter((x) => x.word !== w2.word)).slice(0, 3).map((x) => x.zh);
+        return [w2.word, shuffle([w2.zh, ...wrongZh])];
+      } else {
+        return [w2.word, getChoices(w2.word)];
+      }
+    })));
     const [selected, setSelected] = (0, import_react.useState)(null);
     const [score, setScore] = (0, import_react.useState)(0);
     const [streak, setStreak] = (0, import_react.useState)(0);
     const [results, setResults] = (0, import_react.useState)([]);
     const [shake, setShake] = (0, import_react.useState)(false);
     const inputRef = (0, import_react.useRef)(null);
-    const w = fullQueue[idx];
+    const w = queueWithRetry[idx];
     const color = CAT_COLOR[w.cat] ?? "#38bdf8";
     const pts = Math.max(10 - attempts * 3, 2);
     const hintWord = w.word.split("").map((c, i) => i < hintLen ? c : "_").join(" ");
-    const mastCount = mastery[w.word] ?? 0;
+    const mastCount = getMasteryCount(mastery[w.word]);
     const roundNum = results.filter((r) => r.word === w.word).length + 1;
     (0, import_react.useEffect)(() => {
       setInput("");
@@ -13494,9 +13336,22 @@ input,button{font-family:system-ui,sans-serif;}
     function advance(correct) {
       const nr = [...results, { word: w.word, correct, firstTry: attempts === 0 }];
       setResults(nr);
-      if (idx + 1 >= fullQueue.length) onFinish({ score: score + (correct ? pts : 0), results: nr, total: QUIZ_WORDS });
-      else setIdx((i) => i + 1);
+      if (!correct) {
+        setQueueWithRetry((q) => [...q, w]);
+      }
+      if (idx + 1 >= queueWithRetry.length && correct) {
+        onFinish({ score: score + (correct ? pts : 0), results: nr, total: QUIZ_WORDS });
+      } else if (idx + 1 >= queueWithRetry.length && !correct) {
+        setIdx((i) => i + 1);
+      } else {
+        setIdx((i) => i + 1);
+      }
     }
+    (0, import_react.useEffect)(() => {
+      if (idx >= queueWithRetry.length && queueWithRetry.length > 0) {
+        onFinish({ score, results, total: QUIZ_WORDS });
+      }
+    }, [idx, queueWithRetry.length]);
     function submitType() {
       if (status === "correct") return;
       if (input.trim().toLowerCase() === w.word.toLowerCase()) {
@@ -13510,27 +13365,35 @@ input,button{font-family:system-ui,sans-serif;}
         setHintLen((h) => Math.min(h + 1, Math.floor(w.word.length / 2)));
         setStatus("wrong");
         setStreak(0);
-        setTimeout(() => setStatus(null), 850);
+        setTimeout(() => {
+          advance(false);
+        }, 1500);
       }
     }
     function submitChoice(c) {
       if (status) return;
       setSelected(c);
-      if (c === w.word) {
+      const qType2 = mode === "choice" ? questionTypes[w.word] ?? "zh2en" : "zh2en";
+      const correct = qType2 === "en2zh" ? c === w.zh : c === w.word;
+      if (correct) {
         setStatus("correct");
         setScore((s) => s + 5);
         setStreak((s) => s + 1);
+        setTimeout(() => {
+          window.speechSynthesis?.cancel();
+          const u = new SpeechSynthesisUtterance(w.word);
+          u.lang = "en-US";
+          u.rate = 0.8;
+          window.speechSynthesis?.speak(u);
+        }, 200);
       } else {
         setStatus("wrong");
         setStreak(0);
-        setTimeout(() => {
-          setStatus(null);
-          setSelected(null);
-          setAttempts((a) => a + 1);
-        }, 920);
+        setTimeout(() => advance(false), 1500);
       }
     }
     const choices = choiceMap[w.word] ?? getChoices(w.word);
+    const qType = mode === "choice" ? questionTypes[w.word] ?? "zh2en" : "zh2en";
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { maxWidth: 500, margin: "0 auto", padding: "20px 16px" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }, children: [
         streak >= 2 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { fontSize: 13, fontWeight: 700, color: "#f97316" }, children: [
@@ -13549,19 +13412,8 @@ input,button{font-family:system-ui,sans-serif;}
         ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { borderRadius: 18, padding: "16px", marginBottom: 12, background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-            fontSize: 10,
-            fontWeight: 700,
-            letterSpacing: 2,
-            textTransform: "uppercase",
-            padding: "3px 10px",
-            borderRadius: 20,
-            background: c2a(color, 0.15),
-            color,
-            border: `1px solid ${color}44`,
-            display: "inline-block"
-          }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 10, fontWeight: 700, letterSpacing: 2, textTransform: "uppercase", padding: "3px 10px", borderRadius: 20, background: c2a(color, 0.15), color, border: `1px solid ${color}44` }, children: [
             CAT_EMOJI[w.cat],
             " ",
             w.cat
@@ -13571,101 +13423,54 @@ input,button{font-family:system-ui,sans-serif;}
             mastCount >= MASTERY_GOAL && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 10, color: "#86efac", marginLeft: 2 }, children: "\u2705" })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", gap: 12, marginBottom: 4 }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 42 }, children: w.emoji }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { flex: 1 }, children: qType === "en2zh" ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontFamily: "monospace", fontSize: 20, fontWeight: 800, color: "#f0f0ff", letterSpacing: 1 }, children: w.word }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontFamily: "monospace", fontSize: 11, color: "#666", marginTop: 1 }, children: w.kk }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#555", marginTop: 1 }, children: "\u9078\u51FA\u6B63\u78BA\u7684\u4E2D\u6587\u610F\u601D" })
+          ] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 20, fontWeight: 800, color: "#f0f0ff" }, children: w.zh }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontFamily: "monospace", fontSize: 12, color: "#666", marginTop: 1 }, children: w.kk }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, color: "#555", marginTop: 1 }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, color: "#555", marginTop: 2 }, children: [
               "\u7B2C ",
               roundNum,
               "/",
               REPEAT,
               " \u6B21"
             ] })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.word, rate: 0.7, label: "\u807D\u767C\u97F3", small: true })
+          ] }) }),
+          (mode === "type" || status) && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.word, rate: 0.7, label: "\u807D\u767C\u97F3", small: true })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-          fontSize: 13,
-          color: "rgba(255,255,255,0.5)",
-          lineHeight: 1.8,
-          padding: "9px 12px",
-          background: "rgba(0,0,0,0.2)",
-          borderRadius: 9,
-          borderLeft: `3px solid ${color}`
-        }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 2 }, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 10, color: "#444", letterSpacing: 1 }, children: "\u4F8B\u53E5" }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.sentence, label: "\u5FF5\u4F8B\u53E5", small: true })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 13, color: "rgba(255,255,255,0.5)", lineHeight: 1.8, padding: "9px 12px", background: "rgba(0,0,0,0.2)", borderRadius: 9, borderLeft: `3px solid ${color}` }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", justifyContent: "space-between", marginBottom: 2 }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 10, color: "#444" }, children: "\u4F8B\u53E5" }),
+            (mode === "type" || status) && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.sentence, label: "\u5FF5\u4F8B\u53E5", small: true })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sent, { sentence: w.sentence, word: w.word, revealed: false, color })
         ] })
       ] }),
       hintLen > 0 && mode === "type" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { textAlign: "center", marginBottom: 10, color: "#fde68a", fontFamily: "monospace", fontSize: 16, letterSpacing: 5 }, children: [
         hintWord,
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 11, color: "#555", letterSpacing: 0, marginLeft: 8 }, children: "\u63D0\u793A" })
+        " ",
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 11, color: "#555", letterSpacing: 0 }, children: "\u63D0\u793A" })
       ] }),
       mode === "type" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { marginBottom: 10 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 8, animation: shake ? "shake 0.4s" : "none" }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-            "input",
-            {
-              ref: inputRef,
-              value: input,
-              onChange: (e) => {
-                setInput(e.target.value);
-                setStatus(null);
-              },
-              onKeyDown: (e) => {
-                if (e.key === "Enter") submitType();
-              },
-              disabled: status === "correct",
-              placeholder: "\u8F38\u5165\u82F1\u6587\u62FC\u5B57...",
-              style: {
-                flex: 1,
-                padding: "13px 15px",
-                fontSize: 17,
-                letterSpacing: 3,
-                fontFamily: "monospace",
-                background: status === "correct" ? "rgba(134,239,172,0.1)" : status === "wrong" ? "rgba(249,115,22,0.08)" : "rgba(255,255,255,0.06)",
-                border: `1px solid ${status === "correct" ? "#86efac" : status === "wrong" ? "#f97316" : "rgba(255,255,255,0.14)"}`,
-                borderRadius: 11,
-                color: "#f0f0ff",
-                outline: "none"
-              }
-            }
-          ),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: submitType, style: {
-            padding: "13px 18px",
-            background: "linear-gradient(135deg,#8b5cf6,#6366f1)",
-            border: "none",
-            color: "#fff",
-            borderRadius: 11,
-            fontSize: 18,
-            cursor: "pointer"
-          }, children: "\u2713" })
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { ref: inputRef, value: input, onChange: (e) => {
+            setInput(e.target.value);
+            setStatus(null);
+          }, onKeyDown: (e) => {
+            if (e.key === "Enter") submitType();
+          }, disabled: status === "correct", placeholder: "\u8F38\u5165\u82F1\u6587\u62FC\u5B57...", style: { flex: 1, padding: "13px 15px", fontSize: 17, letterSpacing: 3, fontFamily: "monospace", background: status === "correct" ? "rgba(134,239,172,0.1)" : status === "wrong" ? "rgba(249,115,22,0.08)" : "rgba(255,255,255,0.06)", border: `1px solid ${status === "correct" ? "#86efac" : status === "wrong" ? "#f97316" : "rgba(255,255,255,0.14)"}`, borderRadius: 11, color: "#f0f0ff", outline: "none" } }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: submitType, style: { padding: "13px 18px", background: "linear-gradient(135deg,#8b5cf6,#6366f1)", border: "none", color: "#fff", borderRadius: 11, fontSize: 18, cursor: "pointer" }, children: "\u2713" })
         ] }),
         status === "wrong" && input.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", gap: 3, marginTop: 8, justifyContent: "center", flexWrap: "wrap" }, children: w.word.split("").map((ch, i) => {
           const u = input[i], ok = u === ch, miss = !u;
-          return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: {
-            fontFamily: "monospace",
-            fontSize: 14,
-            width: 23,
-            height: 27,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            borderRadius: 5,
-            fontWeight: 700,
-            background: miss ? "rgba(255,255,255,0.04)" : ok ? "rgba(134,239,172,0.2)" : "rgba(249,115,22,0.2)",
-            color: miss ? "#333" : ok ? "#86efac" : "#f97316",
-            border: `1px solid ${miss ? "#ffffff0f" : ok ? "#86efac44" : "#f9731644"}`
-          }, children: miss ? "?" : ok ? ch : u }, i);
+          return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontSize: 14, width: 23, height: 27, display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 5, fontWeight: 700, background: miss ? "rgba(255,255,255,0.04)" : ok ? "rgba(134,239,172,0.2)" : "rgba(249,115,22,0.2)", color: miss ? "#333" : ok ? "#86efac" : "#f97316" }, children: miss ? "?" : ok ? ch : u }, i);
         }) })
       ] }),
       mode === "choice" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 9, marginBottom: 10 }, children: choices.map((c) => {
-        const isRight = c === w.word, isSel = c === selected;
+        const isRight = qType === "en2zh" ? c === w.zh : c === w.word;
+        const isSel = c === selected;
         let bg = "rgba(255,255,255,0.06)", border = "1px solid rgba(255,255,255,0.1)";
         if (isSel && status === "correct") {
           bg = "rgba(134,239,172,0.18)";
@@ -13679,73 +13484,30 @@ input,button{font-family:system-ui,sans-serif;}
           bg = "rgba(134,239,172,0.1)";
           border = "1px solid #86efac66";
         }
-        return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => submitChoice(c), style: {
-          padding: "13px 10px",
-          background: bg,
-          border,
-          color: "#f0f0ff",
-          borderRadius: 11,
-          fontFamily: "monospace",
-          fontSize: 12,
-          fontWeight: 700,
-          cursor: "pointer",
-          letterSpacing: 1
-        }, children: c }, c);
+        return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => submitChoice(c), style: { padding: "13px 10px", background: bg, border, color: "#f0f0ff", borderRadius: 11, fontFamily: qType === "en2zh" ? "system-ui,sans-serif" : "monospace", fontSize: qType === "en2zh" ? 13 : 12, fontWeight: 700, cursor: "pointer", letterSpacing: qType === "en2zh" ? 0 : 1 }, children: c }, c);
       }) }),
-      status === "correct" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-        textAlign: "center",
-        padding: "11px",
-        borderRadius: 11,
-        background: "rgba(134,239,172,0.1)",
-        border: "1px solid #86efac44",
-        marginBottom: 9
-      }, children: [
-        "\u{1F389} ",
+      status === "correct" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { textAlign: "center", padding: "11px", borderRadius: 11, background: "rgba(134,239,172,0.1)", border: "1px solid #86efac44", marginBottom: 9 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 28 }, children: w.emoji }),
+        " \u{1F389} ",
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("strong", { style: { color: "#86efac" }, children: [
           "\u6B63\u78BA\uFF01 +",
           pts,
           " \u5206"
         ] })
       ] }),
-      status === "wrong" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: {
-        textAlign: "center",
-        padding: "10px",
-        borderRadius: 11,
-        background: "rgba(249,115,22,0.08)",
-        border: "1px solid #f9731644",
-        marginBottom: 9
-      }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { style: { color: "#f97316" }, children: "\u274C \u518D\u8A66\u4E00\u6B21\uFF01" }) }),
+      status === "wrong" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { textAlign: "center", padding: "10px", borderRadius: 11, background: "rgba(249,115,22,0.08)", border: "1px solid #f9731644", marginBottom: 9 }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { style: { color: "#f97316" }, children: "\u274C \u7B54\u932F\u4E86\uFF0C\u7B49\u4E00\u4E0B\u518D\u8003\u4F60\uFF01" }) }),
       status === "correct" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-          fontSize: 13,
-          color: "rgba(255,255,255,0.55)",
-          lineHeight: 1.8,
-          padding: "10px 13px",
-          background: "rgba(56,189,248,0.06)",
-          borderRadius: 10,
-          borderLeft: "3px solid #38bdf8",
-          marginBottom: 11
-        }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 3 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 13, color: "rgba(255,255,255,0.55)", lineHeight: 1.8, padding: "10px 13px", background: "rgba(56,189,248,0.06)", borderRadius: 10, borderLeft: "3px solid #38bdf8", marginBottom: 11 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", justifyContent: "space-between", marginBottom: 3 }, children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontWeight: 700, color: "#38bdf8", fontSize: 15 }, children: w.word }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontSize: 12, color: "#666", marginLeft: 8 }, children: w.kk })
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontWeight: 700, color: "#38bdf8" }, children: w.word }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontSize: 11, color: "#666", marginLeft: 8 }, children: w.kk })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: w.sentence, label: "\u5FF5\u4F8B\u53E5", small: true })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sent, { sentence: w.sentence, word: w.word, revealed: true, color: "#38bdf8" })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => advance(true), style: {
-          width: "100%",
-          padding: "14px",
-          background: "linear-gradient(135deg,#86efac,#38bdf8)",
-          border: "none",
-          color: "#061a10",
-          borderRadius: 12,
-          fontWeight: 800,
-          fontSize: 15,
-          cursor: "pointer"
-        }, children: idx + 1 >= fullQueue.length ? "\u67E5\u770B\u6210\u7E3E \u2192" : "\u4E0B\u4E00\u984C \u2192" })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => advance(true), style: { width: "100%", padding: "14px", background: "linear-gradient(135deg,#86efac,#38bdf8)", border: "none", color: "#061a10", borderRadius: 12, fontWeight: 800, fontSize: 15, cursor: "pointer" }, children: idx + 1 >= queueWithRetry.length ? "\u67E5\u770B\u6210\u7E3E \u2192" : "\u4E0B\u4E00\u984C \u2192" })
       ] })
     ] });
   }
@@ -13753,109 +13515,75 @@ input,button{font-family:system-ui,sans-serif;}
     const { score, results } = quizResult;
     const wrongWords = [...new Set(results.filter((r) => !r.correct).map((r) => r.word))];
     const correctWords = [...new Set(results.filter((r) => r.correct).map((r) => r.word))];
-    const newlyMastered = correctWords.filter((w) => (mastery[w] ?? 0) >= MASTERY_GOAL);
+    const newlyMastered = correctWords.filter((w) => getMasteryCount(mastery[w]) >= MASTERY_GOAL);
+    const totalMastered = WORDS.filter((w) => getMasteryCount(mastery[w.word]) >= MASTERY_GOAL).length;
+    const totalLearned = WORDS.filter((w) => {
+      const c = getMasteryCount(mastery[w.word]);
+      return c > 0 && c < MASTERY_GOAL;
+    }).length;
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { maxWidth: 460, margin: "0 auto", padding: "30px 16px", textAlign: "center" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 50, marginBottom: 10 }, children: wrongWords.length === 0 ? "\u{1F3C6}" : score >= 60 ? "\u{1F31F}" : "\u{1F4AA}" }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { style: { fontSize: 21, fontWeight: 800, marginBottom: 6, color: "#f0f0ff" }, children: wrongWords.length === 0 ? "\u5B8C\u7F8E\uFF01\u5168\u90E8\u7B54\u5C0D\uFF01" : score >= 60 ? "\u5F88\u68D2\uFF01\u7E7C\u7E8C\u7DF4\u7FD2\uFF01" : "\u7DF4\u7FD2\u8B93\u4EBA\u9032\u6B65\uFF01" }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { style: { color: "#555", fontSize: 12, marginBottom: 20 }, children: [
+        "\u672C\u6B21 ",
         QUIZ_WORDS,
-        "\u5B57 \xD7 ",
-        REPEAT,
-        "\u6B21 = ",
-        QUIZ_WORDS * REPEAT,
-        "\u984C"
+        " \u5B57\u6E2C\u9A57"
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 10, marginBottom: 16 }, children: [["\u2B50", score, "\u7E3D\u5206"], ["\u2705", correctWords.length, "\u7B54\u5C0D"], ["\u274C", wrongWords.length, "\u7B54\u932F"]].map(([ic, v, l]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { padding: "13px 8px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 12 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 19 }, children: ic }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 21, fontWeight: 800, color: "#f0f0ff", marginTop: 3 }, children: v }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#555", marginTop: 2 }, children: l })
       ] }, l)) }),
-      newlyMastered.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-        padding: 13,
-        background: "rgba(134,239,172,0.07)",
-        border: "1px solid rgba(134,239,172,0.2)",
-        borderRadius: 12,
-        marginBottom: 12,
-        textAlign: "left"
-      }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 700, fontSize: 11, color: "#86efac", letterSpacing: 2, textTransform: "uppercase", marginBottom: 7 }, children: "\u{1F393} \u65B0\u5B78\u6703\uFF01" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", flexWrap: "wrap", gap: 6 }, children: newlyMastered.map((ww) => {
-          const wo = WORDS.find((x) => x.word === ww);
-          return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: {
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 5,
-            padding: "4px 10px",
-            background: "rgba(134,239,172,0.1)",
-            borderRadius: 7,
-            fontSize: 12,
-            color: "#86efac",
-            border: "1px solid rgba(134,239,172,0.2)"
-          }, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace" }, children: ww }),
-            wo && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontSize: 10, color: "#666" }, children: wo.kk }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: ww, label: "", small: true })
-          ] }, ww);
-        }) })
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 14, marginBottom: 14, textAlign: "left" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, fontWeight: 700, color: "#888", letterSpacing: 1, marginBottom: 10 }, children: "\u7D2F\u7A4D\u5B78\u7FD2\u9032\u5EA6" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 10, marginBottom: 8 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1, padding: "10px", background: "rgba(134,239,172,0.08)", border: "1px solid rgba(134,239,172,0.2)", borderRadius: 10, textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 22, fontWeight: 800, color: "#86efac" }, children: totalMastered }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#86efac", marginTop: 2 }, children: "\u{1F3C6} \u5DF2\u5B78\u6703" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 10, color: "#555", marginTop: 1 }, children: [
+              "\u7B54\u5C0D ",
+              MASTERY_GOAL,
+              " \u6B21"
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1, padding: "10px", background: "rgba(56,189,248,0.08)", border: "1px solid rgba(56,189,248,0.2)", borderRadius: 10, textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 22, fontWeight: 800, color: "#38bdf8" }, children: totalLearned }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#38bdf8", marginTop: 2 }, children: "\u{1F4D6} \u5B78\u904E" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 10, color: "#555", marginTop: 1 }, children: [
+              "\u7B54\u5C0D 1~",
+              MASTERY_GOAL - 1,
+              " \u6B21"
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1, padding: "10px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 10, textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 22, fontWeight: 800, color: "#555" }, children: WORDS.length - totalMastered - totalLearned }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: "#555", marginTop: 2 }, children: "\u{1F634} \u672A\u5B78" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 10, color: "#444", marginTop: 1 }, children: [
+              "\u5171 ",
+              WORDS.length,
+              " \u5B57"
+            ] })
+          ] })
+        ] })
       ] }),
-      wrongWords.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-        padding: 13,
-        background: "rgba(249,115,22,0.07)",
-        border: "1px solid rgba(249,115,22,0.18)",
-        borderRadius: 12,
-        marginBottom: 12,
-        textAlign: "left"
-      }, children: [
+      newlyMastered.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { padding: 13, background: "rgba(134,239,172,0.07)", border: "1px solid rgba(134,239,172,0.2)", borderRadius: 12, marginBottom: 12, textAlign: "left" }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 700, fontSize: 11, color: "#86efac", letterSpacing: 2, textTransform: "uppercase", marginBottom: 7 }, children: "\u{1F393} \u65B0\u5B78\u6703\uFF01" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", flexWrap: "wrap", gap: 6 }, children: newlyMastered.map((ww) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { display: "inline-flex", alignItems: "center", gap: 5, padding: "4px 10px", background: "rgba(134,239,172,0.1)", borderRadius: 7, fontSize: 12, color: "#86efac", border: "1px solid rgba(134,239,172,0.2)" }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace" }, children: ww }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: ww, label: "", small: true })
+        ] }, ww)) })
+      ] }),
+      wrongWords.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { padding: 13, background: "rgba(249,115,22,0.07)", border: "1px solid rgba(249,115,22,0.18)", borderRadius: 12, marginBottom: 12, textAlign: "left" }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 700, fontSize: 11, color: "#f97316", letterSpacing: 2, textTransform: "uppercase", marginBottom: 7 }, children: "\u9700\u8981\u518D\u7DF4\u7FD2" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", flexWrap: "wrap", gap: 6 }, children: wrongWords.map((ww) => {
-          const wo = WORDS.find((x) => x.word === ww);
-          return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: {
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 5,
-            padding: "4px 10px",
-            background: "rgba(249,115,22,0.1)",
-            borderRadius: 7,
-            fontSize: 12,
-            color: "#fca5a5",
-            border: "1px solid rgba(249,115,22,0.2)"
-          }, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace" }, children: ww }),
-            wo && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace", fontSize: 10, color: "#888" }, children: wo.kk }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: ww, label: "", small: true })
-          ] }, ww);
-        }) })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", flexWrap: "wrap", gap: 6 }, children: wrongWords.map((ww) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { display: "inline-flex", alignItems: "center", gap: 5, padding: "4px 10px", background: "rgba(249,115,22,0.1)", borderRadius: 7, fontSize: 12, color: "#fca5a5", border: "1px solid rgba(249,115,22,0.2)" }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontFamily: "monospace" }, children: ww }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SpeakBtn, { text: ww, label: "", small: true })
+        ] }, ww)) })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", flexDirection: "column", gap: 8 }, children: [
-        wrongWords.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => onStudyWrong(wrongWords), style: {
-          padding: "13px",
-          background: "linear-gradient(135deg,#f97316,#ec4899)",
-          border: "none",
-          color: "#fff",
-          borderRadius: 11,
-          fontWeight: 800,
-          fontSize: 14,
-          cursor: "pointer"
-        }, children: "\u{1F501} \u5148\u80CC\u932F\u8AA4\u55AE\u5B57\u518D\u8003" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onQuizAgain, style: {
-          padding: "13px",
-          background: "linear-gradient(135deg,#86efac,#38bdf8)",
-          border: "none",
-          color: "#061a10",
-          borderRadius: 11,
-          fontWeight: 800,
-          fontSize: 14,
-          cursor: "pointer"
-        }, children: "\u{1F504} \u7E7C\u7E8C\u7DF4\u7FD2\uFF08\u518D\u62BD10\u5B57\uFF09" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onHome, style: {
-          padding: "11px",
-          background: "transparent",
-          border: "1px solid rgba(255,255,255,0.1)",
-          color: "#777",
-          borderRadius: 11,
-          fontSize: 13,
-          cursor: "pointer"
-        }, children: "\u2190 \u8FD4\u56DE\u4E3B\u9801" })
+        wrongWords.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => onStudyWrong(wrongWords), style: { padding: "13px", background: "linear-gradient(135deg,#f97316,#ec4899)", border: "none", color: "#fff", borderRadius: 11, fontWeight: 800, fontSize: 14, cursor: "pointer" }, children: "\u{1F501} \u5148\u80CC\u932F\u8AA4\u55AE\u5B57\u518D\u8003" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onQuizAgain, style: { padding: "13px", background: "linear-gradient(135deg,#86efac,#38bdf8)", border: "none", color: "#061a10", borderRadius: 11, fontWeight: 800, fontSize: 14, cursor: "pointer" }, children: "\u{1F504} \u7E7C\u7E8C\u7DF4\u7FD2\uFF08\u518D\u62BD10\u5B57\uFF09" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onHome, style: { padding: "11px", background: "transparent", border: "1px solid rgba(255,255,255,0.1)", color: "#777", borderRadius: 11, fontSize: 13, cursor: "pointer" }, children: "\u2190 \u8FD4\u56DE\u4E3B\u9801" })
       ] })
     ] });
   }
@@ -13871,82 +13599,35 @@ input,button{font-family:system-ui,sans-serif;}
     }
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { maxWidth: 440, margin: "0 auto", padding: "34px 16px", textAlign: "center" }, children: [
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 42, marginBottom: 6 }, children: "\u{1F3E0}" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { style: {
-        fontSize: 21,
-        fontWeight: 800,
-        background: "linear-gradient(90deg,#86efac,#38bdf8)",
-        WebkitBackgroundClip: "text",
-        WebkitTextFillColor: "transparent",
-        marginBottom: 4
-      }, children: "Home Spelling" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { style: { color: "#555", fontSize: 12, marginBottom: 4 }, children: "221\u500B\u55AE\u5B57\u30FBKK\u97F3\u6A19\u30FB\u81EA\u52D5\u6717\u8B80\u30FB\u5B78\u7FD2\u9032\u5EA6\u81EA\u52D5\u5132\u5B58" }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { style: { color: "#444", fontSize: 11, marginBottom: 24 }, children: "\u9078\u64C7\u4F7F\u7528\u8005\u958B\u59CB\u7DF4\u7FD2" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { style: { fontSize: 21, fontWeight: 800, background: "linear-gradient(90deg,#86efac,#38bdf8)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", marginBottom: 4 }, children: "Home Spelling" }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { style: { color: "#555", fontSize: 12, marginBottom: 24 }, children: "\u9078\u64C7\u4F7F\u7528\u8005\u958B\u59CB\u7DF4\u7FD2" }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", flexDirection: "column", gap: 9, marginBottom: 18 }, children: users.map((u, i) => {
         const col = USER_COLORS[i % USER_COLORS.length];
-        const mastered = Object.values(u.mastery).filter((v) => v >= MASTERY_GOAL).length;
+        const mastered = Object.values(u.mastery).filter((v) => getMasteryCount(v) >= MASTERY_GOAL).length;
+        const learned = Object.values(u.mastery).filter((v) => {
+          const c = getMasteryCount(v);
+          return c > 0 && c < MASTERY_GOAL;
+        }).length;
         return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", borderRadius: 13, overflow: "hidden", border: `1px solid ${col}33` }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => onSelect(u.id), style: {
-            flex: 1,
-            display: "flex",
-            alignItems: "center",
-            gap: 12,
-            padding: "13px 15px",
-            background: c2a(col, 0.08),
-            border: "none",
-            cursor: "pointer",
-            textAlign: "left"
-          }, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: {
-              width: 38,
-              height: 38,
-              borderRadius: "50%",
-              background: c2a(col, 0.2),
-              border: `2px solid ${col}66`,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: 19,
-              flexShrink: 0
-            }, children: USER_AVATARS[i % USER_AVATARS.length] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => onSelect(u.id), style: { flex: 1, display: "flex", alignItems: "center", gap: 12, padding: "13px 15px", background: c2a(col, 0.08), border: "none", cursor: "pointer", textAlign: "left" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { width: 38, height: 38, borderRadius: "50%", background: c2a(col, 0.2), border: `2px solid ${col}66`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 19, flexShrink: 0 }, children: USER_AVATARS[i % USER_AVATARS.length] }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1 }, children: [
               /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 800, fontSize: 14, color: "#f0f0ff" }, children: u.name }),
               /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, color: "#666", marginTop: 1 }, children: [
-                "\u5DF2\u5B78\u6703 ",
+                "\u{1F3C6} \u5DF2\u5B78\u6703 ",
                 /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#86efac", fontWeight: 700 }, children: mastered }),
-                "/",
-                WORDS.length
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { margin: "0 4px", color: "#444" }, children: "\xB7" }),
+                "\u{1F4D6} \u5B78\u904E ",
+                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#38bdf8", fontWeight: 700 }, children: learned })
               ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { marginTop: 3, height: 3, background: "rgba(255,255,255,0.06)", borderRadius: 2, overflow: "hidden" }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: {
-                height: "100%",
-                width: `${mastered / WORDS.length * 100}%`,
-                background: `linear-gradient(90deg,${col},#38bdf8)`,
-                borderRadius: 2
-              } }) })
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { marginTop: 3, height: 3, background: "rgba(255,255,255,0.06)", borderRadius: 2, overflow: "hidden" }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { height: "100%", width: `${mastered / WORDS.length * 100}%`, background: `linear-gradient(90deg,${col},#38bdf8)`, borderRadius: 2 } }) })
             ] }),
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 11, color: col, fontWeight: 700 }, children: "\u9032\u5165 \u2192" })
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => onDelete(u.id), style: {
-            padding: "13px 12px",
-            background: "rgba(239,68,68,0.08)",
-            border: "none",
-            borderLeft: "1px solid rgba(239,68,68,0.15)",
-            cursor: "pointer",
-            color: "#666",
-            fontSize: 13
-          }, children: "\u{1F5D1}\uFE0F" })
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => onDelete(u.id), style: { padding: "13px 12px", background: "rgba(239,68,68,0.08)", border: "none", borderLeft: "1px solid rgba(239,68,68,0.15)", cursor: "pointer", color: "#666", fontSize: 13 }, children: "\u{1F5D1}\uFE0F" })
         ] }, u.id);
       }) }),
-      users.length < MAX_USERS && !adding && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setAdding(true), style: {
-        width: "100%",
-        padding: "13px",
-        background: "rgba(255,255,255,0.05)",
-        border: "1px dashed rgba(255,255,255,0.14)",
-        color: "#666",
-        borderRadius: 12,
-        cursor: "pointer",
-        fontSize: 13,
-        fontWeight: 600
-      }, children: [
+      users.length < MAX_USERS && !adding && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setAdding(true), style: { width: "100%", padding: "13px", background: "rgba(255,255,255,0.05)", border: "1px dashed rgba(255,255,255,0.14)", color: "#666", borderRadius: 12, cursor: "pointer", fontSize: 13, fontWeight: 600 }, children: [
         "\uFF0B \u65B0\u589E\u4F7F\u7528\u8005\uFF08",
         users.length,
         "/",
@@ -13954,152 +13635,229 @@ input,button{font-family:system-ui,sans-serif;}
         "\uFF09"
       ] }),
       adding && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 8 }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-          "input",
-          {
-            autoFocus: true,
-            value: newName,
-            onChange: (e) => setNewName(e.target.value),
-            onKeyDown: (e) => {
-              if (e.key === "Enter") doCreate();
-              if (e.key === "Escape") {
-                setAdding(false);
-                setNewName("");
-              }
-            },
-            placeholder: "\u8F38\u5165\u540D\u5B57...",
-            style: {
-              flex: 1,
-              padding: "11px 13px",
-              background: "rgba(255,255,255,0.07)",
-              border: "1px solid rgba(255,255,255,0.14)",
-              borderRadius: 9,
-              color: "#f0f0ff",
-              fontSize: 13,
-              outline: "none"
-            }
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { autoFocus: true, value: newName, onChange: (e) => setNewName(e.target.value), onKeyDown: (e) => {
+          if (e.key === "Enter") doCreate();
+          if (e.key === "Escape") {
+            setAdding(false);
+            setNewName("");
           }
-        ),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: doCreate, style: {
-          padding: "11px 15px",
-          background: "linear-gradient(135deg,#86efac,#38bdf8)",
-          border: "none",
-          color: "#061a10",
-          borderRadius: 9,
-          fontWeight: 800,
-          cursor: "pointer"
-        }, children: "\u2713" }),
+        }, placeholder: "\u8F38\u5165\u540D\u5B57...", style: { flex: 1, padding: "11px 13px", background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 9, color: "#f0f0ff", fontSize: 13, outline: "none" } }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: doCreate, style: { padding: "11px 15px", background: "linear-gradient(135deg,#86efac,#38bdf8)", border: "none", color: "#061a10", borderRadius: 9, fontWeight: 800, cursor: "pointer" }, children: "\u2713" }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => {
           setAdding(false);
           setNewName("");
-        }, style: {
-          padding: "11px 13px",
-          background: "rgba(255,255,255,0.07)",
-          border: "none",
-          color: "#888",
-          borderRadius: 9,
-          cursor: "pointer"
-        }, children: "\u2715" })
+        }, style: { padding: "11px 13px", background: "rgba(255,255,255,0.07)", border: "none", color: "#888", borderRadius: 9, cursor: "pointer" }, children: "\u2715" })
       ] })
     ] });
   }
   function HomeScreen({ user, mastery, onStart, onSwitchUser }) {
     const [cat, setCat] = (0, import_react.useState)("All");
     const [mode, setMode] = (0, import_react.useState)("type");
+    const [learnMode, setLearnMode] = (0, import_react.useState)("study");
     const pool = cat === "All" ? WORDS : WORDS.filter((w) => w.cat === cat);
-    const masteredInPool = pool.filter((w) => (mastery[w.word] ?? 0) >= MASTERY_GOAL).length;
+    const masteredInPool = pool.filter((w) => getMasteryCount(mastery[w.word]) >= MASTERY_GOAL).length;
     const catStats = Object.keys(CAT_COLOR).map((c) => {
       const ws = WORDS.filter((w) => w.cat === c);
-      return { cat: c, mastered: ws.filter((w) => (mastery[w.word] ?? 0) >= MASTERY_GOAL).length, total: ws.length };
+      return {
+        cat: c,
+        mastered: ws.filter((w) => getMasteryCount(mastery[w.word]) >= MASTERY_GOAL).length,
+        learned: ws.filter((w) => {
+          const cnt = getMasteryCount(mastery[w.word]);
+          return cnt > 0 && cnt < MASTERY_GOAL;
+        }).length,
+        total: ws.length
+      };
     });
-    const totalMastered = Object.values(mastery).filter((v) => v >= MASTERY_GOAL).length;
-    const avatarIdx = user.avatarIdx ?? 0;
+    const totalMastered = Object.values(mastery).filter((v) => getMasteryCount(v) >= MASTERY_GOAL).length;
+    const totalLearned = Object.values(mastery).filter((v) => {
+      const c = getMasteryCount(v);
+      return c > 0 && c < MASTERY_GOAL;
+    }).length;
+    const totalUnseen = WORDS.length - totalMastered - totalLearned;
+    const today = /* @__PURE__ */ new Date();
+    const [calYear, setCalYear] = (0, import_react.useState)(today.getFullYear());
+    const [calMonth, setCalMonth] = (0, import_react.useState)(today.getMonth());
+    const dailyLog = user.dailyLog || {};
+    const firstDay = new Date(calYear, calMonth, 1).getDay();
+    const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+    const monthLabel = `${calYear}\u5E74${calMonth + 1}\u6708`;
+    const isCurrentMonth = calYear === today.getFullYear() && calMonth === today.getMonth();
+    function prevMonth() {
+      if (calMonth === 0) {
+        setCalYear((y) => y - 1);
+        setCalMonth(11);
+      } else setCalMonth((m) => m - 1);
+    }
+    function nextMonth() {
+      if (isCurrentMonth) return;
+      if (calMonth === 11) {
+        setCalYear((y) => y + 1);
+        setCalMonth(0);
+      } else setCalMonth((m) => m + 1);
+    }
+    const monthKeys = Array.from({ length: daysInMonth }, (_, i) => {
+      const d = i + 1;
+      return `${calYear}-${String(calMonth + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+    });
+    const monthStudiedDays = monthKeys.filter((k) => dailyLog[k]).length;
+    const monthTotalWords = monthKeys.reduce((s, k) => s + (dailyLog[k]?.words || 0), 0);
+    const monthCorrect = monthKeys.reduce((s, k) => s + (dailyLog[k]?.correct || 0), 0);
+    const monthTotal = monthKeys.reduce((s, k) => s + (dailyLog[k]?.total || 0), 0);
+    const monthAcc = monthTotal > 0 ? Math.round(monthCorrect / monthTotal * 100) : 0;
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { maxWidth: 480, margin: "0 auto", padding: "22px 16px" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        marginBottom: 18,
-        padding: "10px 13px",
-        background: "rgba(255,255,255,0.04)",
-        border: "1px solid rgba(255,255,255,0.08)",
-        borderRadius: 11
-      }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 18, padding: "10px 13px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 11 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", gap: 10 }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 21 }, children: USER_AVATARS[avatarIdx] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 21 }, children: USER_AVATARS[user.avatarIdx ?? 0] }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 800, fontSize: 14, color: "#f0f0ff" }, children: user.name }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, color: "#555" }, children: [
-              "\u5DF2\u5B78\u6703 ",
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#86efac" }, children: totalMastered }),
-              "/",
-              WORDS.length
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, color: "#555", marginTop: 2 }, children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: "#86efac" }, children: [
+                "\u{1F3C6} ",
+                totalMastered
+              ] }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#444", margin: "0 4px" }, children: "\xB7" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: "#38bdf8" }, children: [
+                "\u{1F4D6} ",
+                totalLearned
+              ] }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#444", margin: "0 4px" }, children: "\xB7" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: "#555" }, children: [
+                "\u{1F634} ",
+                totalUnseen
+              ] })
             ] })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onSwitchUser, style: {
-          background: "rgba(255,255,255,0.07)",
-          border: "none",
-          color: "#777",
-          borderRadius: 7,
-          padding: "5px 11px",
-          fontSize: 11,
-          cursor: "pointer"
-        }, children: "\u5207\u63DB \u2192" })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: onSwitchUser, style: { background: "rgba(255,255,255,0.07)", border: "none", color: "#777", borderRadius: 7, padding: "5px 11px", fontSize: 11, cursor: "pointer" }, children: "\u5207\u63DB \u2192" })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 13, marginBottom: 11 }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", justifyContent: "space-between", marginBottom: 5 }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 12, color: "#888" }, children: "\u6574\u9AD4\u5B78\u7FD2\u9032\u5EA6" }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { fontSize: 12, color: "#86efac", fontWeight: 700 }, children: [
-            totalMastered,
-            "/",
-            WORDS.length
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 11, fontWeight: 700, color: "#888", marginBottom: 8 }, children: [
+          "\u6574\u9AD4\u5B78\u7FD2\u9032\u5EA6\uFF08\u5171 ",
+          WORDS.length,
+          " \u5B57\uFF09"
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 8, marginBottom: 8 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1, padding: "8px", background: "rgba(134,239,172,0.08)", border: "1px solid rgba(134,239,172,0.2)", borderRadius: 9, textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 18, fontWeight: 800, color: "#86efac" }, children: totalMastered }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#86efac", marginTop: 1 }, children: "\u{1F3C6} \u5DF2\u5B78\u6703" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1, padding: "8px", background: "rgba(56,189,248,0.08)", border: "1px solid rgba(56,189,248,0.2)", borderRadius: 9, textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 18, fontWeight: 800, color: "#38bdf8" }, children: totalLearned }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#38bdf8", marginTop: 1 }, children: "\u{1F4D6} \u5B78\u904E" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { flex: 1, padding: "8px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 9, textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 18, fontWeight: 800, color: "#555" }, children: totalUnseen }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#555", marginTop: 1 }, children: "\u{1F634} \u672A\u5B78" })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PBar, { v: totalMastered, t: WORDS.length, color: "#86efac" })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { height: 6, background: "rgba(255,255,255,0.06)", borderRadius: 3, overflow: "hidden", display: "flex" }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { width: `${totalMastered / WORDS.length * 100}%`, background: "#86efac", transition: "width 0.3s" } }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { width: `${totalLearned / WORDS.length * 100}%`, background: "#38bdf8", transition: "width 0.3s" } })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 13, marginBottom: 11 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: prevMonth, style: { background: "rgba(255,255,255,0.07)", border: "none", color: "#aaa", borderRadius: 7, padding: "5px 10px", fontSize: 14, cursor: "pointer" }, children: "\u2039" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { textAlign: "center" }, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 800, fontSize: 13, color: "#f0f0ff" }, children: monthLabel }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#555", marginTop: 2 }, children: monthStudiedDays > 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+              "\u6253\u5361 ",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#86efac", fontWeight: 700 }, children: monthStudiedDays }),
+              " \u5929\u30FB\u5B78 ",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#38bdf8", fontWeight: 700 }, children: monthTotalWords }),
+              " \u5B57\u30FB\u6B63\u78BA\u7387 ",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: monthAcc >= 80 ? "#86efac" : monthAcc >= 50 ? "#eab308" : "#f97316", fontWeight: 700 }, children: [
+                monthAcc,
+                "%"
+              ] })
+            ] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#444" }, children: "\u672C\u6708\u5C1A\u7121\u8A18\u9304" }) })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: nextMonth, disabled: isCurrentMonth, style: { background: "rgba(255,255,255,0.07)", border: "none", color: isCurrentMonth ? "#2a2a2a" : "#aaa", borderRadius: 7, padding: "5px 10px", fontSize: 14, cursor: isCurrentMonth ? "default" : "pointer" }, children: "\u203A" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "grid", gridTemplateColumns: "repeat(7,1fr)", gap: 3, marginBottom: 4 }, children: ["\u65E5", "\u4E00", "\u4E8C", "\u4E09", "\u56DB", "\u4E94", "\u516D"].map((d) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { textAlign: "center", fontSize: 9, color: "#444", padding: "2px 0" }, children: d }, d)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "grid", gridTemplateColumns: "repeat(7,1fr)", gap: 3 }, children: [
+          Array.from({ length: firstDay }, (_, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {}, "e" + i)),
+          Array.from({ length: daysInMonth }, (_, i) => {
+            const day = i + 1;
+            const key = `${calYear}-${String(calMonth + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+            const log = dailyLog[key] || null;
+            const isToday = isCurrentMonth && day === today.getDate();
+            const isFuture = isCurrentMonth && day > today.getDate();
+            const acc = log ? Math.round(log.correct / log.total * 100) : 0;
+            const bgColor = log ? acc >= 80 ? "rgba(134,239,172,0.28)" : acc >= 50 ? "rgba(234,179,8,0.28)" : "rgba(249,115,22,0.22)" : "rgba(255,255,255,0.03)";
+            const textColor = log ? acc >= 80 ? "#86efac" : acc >= 50 ? "#eab308" : "#f97316" : "#444";
+            return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: {
+              borderRadius: 7,
+              padding: "4px 2px",
+              textAlign: "center",
+              background: isFuture ? "transparent" : bgColor,
+              border: isToday ? "2px solid #38bdf8" : "1px solid rgba(255,255,255,0.06)",
+              opacity: isFuture ? 0.2 : 1,
+              minHeight: 44,
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: 1
+            }, children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: isToday ? "#38bdf8" : log ? textColor : "#555", fontWeight: isToday ? 800 : 400 }, children: day }),
+              log && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 9, fontWeight: 700, color: textColor, lineHeight: 1 }, children: [
+                log.words,
+                "\u5B57"
+              ] }),
+              log && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 8, color: "#555", lineHeight: 1 }, children: [
+                acc,
+                "%"
+              ] })
+            ] }, key);
+          })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { marginTop: 8, display: "flex", gap: 10, fontSize: 10, color: "#444" }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#86efac" }, children: "\u25A0" }),
+            " \u226580%"
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#eab308" }, children: "\u25A0" }),
+            " 50-79%"
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { color: "#f97316" }, children: "\u25A0" }),
+            " <50%"
+          ] })
+        ] })
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 13, marginBottom: 11 }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, fontWeight: 700, letterSpacing: 2, color: "#444", marginBottom: 11, textTransform: "uppercase" }, children: "\u9078\u64C7\u623F\u9593" }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", flexWrap: "wrap", gap: 7 }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setCat("All"), style: {
-            cursor: "pointer",
-            padding: "7px 12px",
-            fontSize: 11,
-            fontWeight: 600,
-            borderRadius: 9,
-            background: cat === "All" ? "rgba(56,189,248,0.15)" : "rgba(255,255,255,0.04)",
-            border: `1px solid ${cat === "All" ? "#38bdf888" : "rgba(255,255,255,0.09)"}`,
-            color: cat === "All" ? "#38bdf8" : "#777"
-          }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setCat("All"), style: { cursor: "pointer", padding: "7px 12px", fontSize: 11, fontWeight: 600, borderRadius: 9, background: cat === "All" ? "rgba(56,189,248,0.15)" : "rgba(255,255,255,0.04)", border: `1px solid ${cat === "All" ? "#38bdf888" : "rgba(255,255,255,0.09)"}`, color: cat === "All" ? "#38bdf8" : "#777" }, children: [
             "\u{1F31F} \u5168\u90E8 ",
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { opacity: 0.5 }, children: [
               WORDS.length,
               "\u5B57"
             ] })
           ] }),
-          catStats.map(({ cat: c, mastered, total }) => {
+          catStats.map(({ cat: c, mastered, learned, total }) => {
             const active = cat === c, col = CAT_COLOR[c];
-            return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setCat(c), style: {
-              cursor: "pointer",
-              padding: "7px 11px",
-              fontSize: 11,
-              fontWeight: 600,
-              borderRadius: 9,
-              background: active ? c2a(col, 0.15) : "rgba(255,255,255,0.04)",
-              border: `1px solid ${active ? col + "77" : "rgba(255,255,255,0.09)"}`,
-              color: active ? col : "#777",
-              textAlign: "left"
-            }, children: [
+            return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setCat(c), style: { cursor: "pointer", padding: "7px 11px", fontSize: 11, fontWeight: 600, borderRadius: 9, background: active ? c2a(col, 0.15) : "rgba(255,255,255,0.04)", border: `1px solid ${active ? col + "77" : "rgba(255,255,255,0.09)"}`, color: active ? col : "#777", textAlign: "left" }, children: [
               /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
                 CAT_EMOJI[c],
                 " ",
                 c
               ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 9, marginTop: 1, opacity: 0.65 }, children: [
-                mastered,
-                "/",
-                total,
-                mastered === total ? " \u2705" : ""
+              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontSize: 9, marginTop: 2, display: "flex", gap: 4 }, children: [
+                /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: "#86efac" }, children: [
+                  "\u{1F3C6}",
+                  mastered
+                ] }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: "#38bdf8" }, children: [
+                  "\u{1F4D6}",
+                  learned
+                ] }),
+                /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { color: "#555" }, children: [
+                  "/",
+                  total
+                ] })
               ] })
             ] }, c);
           })
@@ -14111,72 +13869,39 @@ input,button{font-family:system-ui,sans-serif;}
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { style: { color: "#86efac" }, children: masteredInPool })
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 13, marginBottom: 15 }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, fontWeight: 700, letterSpacing: 2, color: "#444", marginBottom: 10, textTransform: "uppercase" }, children: "\u6E2C\u9A57\u65B9\u5F0F" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", gap: 9 }, children: [["type", "\u2328\uFE0F \u62FC\u5B57", "\u81EA\u5DF1\u6253"], ["choice", "\u{1F3AF} \u9078\u64C7\u984C", "\u56DB\u9078\u4E00"]].map(([m, l, s]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setMode(m), style: {
-          flex: 1,
-          padding: "11px 8px",
-          cursor: "pointer",
-          background: mode === m ? "linear-gradient(135deg,#f97316,#ec4899)" : "rgba(255,255,255,0.04)",
-          border: `1px solid ${mode === m ? "transparent" : "rgba(255,255,255,0.08)"}`,
-          color: mode === m ? "#fff" : "#777",
-          borderRadius: 10,
-          fontWeight: 700,
-          fontSize: 12,
-          lineHeight: 1.5
-        }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 13, marginBottom: 11 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, fontWeight: 700, letterSpacing: 2, color: "#444", marginBottom: 10, textTransform: "uppercase" }, children: "\u5B78\u7FD2\u65B9\u5F0F" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", gap: 7, flexWrap: "wrap" }, children: [["study", "\u{1F4D6} \u7D14\u8A18\u61B6", "\u5148\u80CC\u5F8C\u8003"], ["both", "\u{1F501} \u908A\u5B78\u908A\u8003", "\u80CC+\u8003+\u8003"], ["quiz", "\u270F\uFE0F \u76F4\u63A5\u8003", "\u8DF3\u904E\u8A18\u61B6"]].map(([m, l, s]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setLearnMode(m), style: { flex: 1, minWidth: 90, padding: "11px 8px", cursor: "pointer", background: learnMode === m ? "linear-gradient(135deg,#8b5cf6,#6366f1)" : "rgba(255,255,255,0.04)", border: `1px solid ${learnMode === m ? "transparent" : "rgba(255,255,255,0.08)"}`, color: learnMode === m ? "#fff" : "#777", borderRadius: 10, fontWeight: 700, fontSize: 12, lineHeight: 1.5 }, children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: l }),
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 400, fontSize: 10, opacity: 0.75, marginTop: 2 }, children: s })
         ] }, m)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: {
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: 4,
-        marginBottom: 14,
-        fontSize: 10,
-        color: "#444",
-        flexWrap: "wrap"
-      }, children: ["\u{1F4D6} \u8A18\u61B6", "\u2192", "\u{1F50A} \u81EA\u52D5\u6717\u8B80", "\u2192", "\u270F\uFE0F \u62BD10\u5B57", "\u2192", "\u{1F501} \u6BCF\u5B57\xD72", "\u2192", "\u{1F3C6} 7\u6B21\u5B78\u6703"].map((t, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: t === "\u2192" ? { color: "#2a2a3a" } : {
-        padding: "3px 7px",
-        background: "rgba(255,255,255,0.03)",
-        borderRadius: 6,
-        border: "1px solid rgba(255,255,255,0.06)"
-      }, children: t }, i)) }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => onStart(pool, mode, cat), style: {
-        width: "100%",
-        padding: "15px",
-        background: "linear-gradient(135deg,#86efac,#38bdf8)",
-        border: "none",
-        color: "#061a10",
-        borderRadius: 12,
-        fontWeight: 800,
-        fontSize: 16,
-        cursor: "pointer",
-        boxShadow: "0 8px 20px rgba(56,189,248,0.18)"
-      }, children: "\u{1F4D6} \u958B\u59CB\u8A18\u61B6\u55AE\u5B57 \u2192" })
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: 13, padding: 13, marginBottom: 15 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, fontWeight: 700, letterSpacing: 2, color: "#444", marginBottom: 10, textTransform: "uppercase" }, children: "\u6E2C\u9A57\u65B9\u5F0F" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { display: "flex", gap: 9 }, children: [["type", "\u2328\uFE0F \u62FC\u5B57", "\u81EA\u5DF1\u6253"], ["choice", "\u{1F3AF} \u9078\u64C7\u984C", "\u56DB\u9078\u4E00"]].map(([m, l, s]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { onClick: () => setMode(m), style: { flex: 1, padding: "11px 8px", cursor: "pointer", background: mode === m ? "linear-gradient(135deg,#f97316,#ec4899)" : "rgba(255,255,255,0.04)", border: `1px solid ${mode === m ? "transparent" : "rgba(255,255,255,0.08)"}`, color: mode === m ? "#fff" : "#777", borderRadius: 10, fontWeight: 700, fontSize: 12, lineHeight: 1.5 }, children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: l }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontWeight: 400, fontSize: 10, opacity: 0.75, marginTop: 2 }, children: s })
+        ] }, m)) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { fontSize: 10, color: "#555", marginBottom: 14, display: "flex", flexWrap: "wrap", gap: 4, justifyContent: "center" }, children: ["\u{1F4D6} \u7B2C1\u8F2A\u7D14\u8A18\u61B6", "\u2192", "\u{1F501} \u7B2C2\u8F2A\u908A\u5B78\u908A\u8003", "\u2192", "\u270F\uFE0F \u6700\u7D42\u6E2C\u9A57", "\u2192", "\u{1F3C6} 7\u6B21\u5B78\u6703"].map((t, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: t === "\u2192" ? { color: "#2a2a3a" } : { padding: "3px 7px", background: "rgba(255,255,255,0.03)", borderRadius: 6, border: "1px solid rgba(255,255,255,0.06)" }, children: t }, i)) }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => onStart(pool, mode, cat, learnMode), style: { width: "100%", padding: "15px", background: "linear-gradient(135deg,#86efac,#38bdf8)", border: "none", color: "#061a10", borderRadius: 12, fontWeight: 800, fontSize: 16, cursor: "pointer" }, children: learnMode === "study" ? "\u{1F4D6} \u958B\u59CB\u8A18\u61B6\u55AE\u5B57 \u2192" : learnMode === "both" ? "\u{1F501} \u958B\u59CB\u908A\u5B78\u908A\u8003 \u2192" : "\u270F\uFE0F \u76F4\u63A5\u958B\u59CB\u6E2C\u9A57 \u2192" })
     ] });
   }
   function App() {
-    const [users, setUsers] = (0, import_react.useState)([makeUser("\u4F7F\u7528\u80051", 0)]);
-    const [loaded, setLoaded] = (0, import_react.useState)(false);
-    (0, import_react.useEffect)(() => {
-      loadUsers().then((saved) => {
-        if (saved && saved.length > 0) setUsers(saved);
-        setLoaded(true);
-      });
-    }, []);
+    const [users, setUsers] = (0, import_react.useState)(() => {
+      const s = loadUsers();
+      return s && s.length > 0 ? s : [makeUser("\u4F7F\u7528\u80051", 0)];
+    });
     const [activeId, setActiveId] = (0, import_react.useState)(null);
     const [screen, setScreen] = (0, import_react.useState)("userSelect");
-    const [studyQueue, setStudyQueue] = (0, import_react.useState)([]);
-    const [quizWords, setQuizWords] = (0, import_react.useState)([]);
+    const [wordQueue, setWordQueue] = (0, import_react.useState)([]);
     const [quizMode, setQuizMode] = (0, import_react.useState)("type");
     const [currentCat, setCurrentCat] = (0, import_react.useState)("All");
+    const [learnMode, setLearnMode] = (0, import_react.useState)("study");
     const [quizResult, setQuizResult] = (0, import_react.useState)(null);
     (0, import_react.useEffect)(() => {
-      if (loaded) saveUsers(users);
-    }, [users, loaded]);
+      saveUsers(users);
+    }, [users]);
     const activeUser = users.find((u) => u.id === activeId);
     const mastery = activeUser?.mastery ?? {};
     function updateMastery(results) {
@@ -14184,30 +13909,69 @@ input,button{font-family:system-ui,sans-serif;}
         if (u.id !== activeId) return u;
         const next = { ...u.mastery };
         const seen = {};
+        let newWords = 0;
+        const now = Date.now();
         results.forEach((r) => {
           if (r.correct && !(r.word in seen)) {
             seen[r.word] = 1;
-            next[r.word] = (next[r.word] ?? 0) + 1;
+            const prev3 = next[r.word];
+            const before = getMasteryCount(prev3);
+            next[r.word] = { count: before + 1, lastSeen: now };
+            if (before === 0) newWords++;
           }
         });
-        return { ...u, mastery: next };
+        const today = todayKey();
+        const log = { ...u.dailyLog || {} };
+        const prev2 = log[today] || { words: 0, correct: 0, total: 0 };
+        const correct = results.filter((r) => r.correct).length;
+        const total = results.length;
+        log[today] = { words: prev2.words + newWords, correct: prev2.correct + correct, total: prev2.total + total };
+        return { ...u, mastery: next, dailyLog: log };
       }));
     }
     function pickQuizWords(pool) {
-      const um = shuffle(pool.filter((w) => (mastery[w.word] ?? 0) < MASTERY_GOAL));
-      const ma = shuffle(pool.filter((w) => (mastery[w.word] ?? 0) >= MASTERY_GOAL));
-      return shuffle([...um.slice(0, QUIZ_WORDS), ...ma.slice(0, Math.max(0, QUIZ_WORDS - um.length))]);
+      const now = Date.now();
+      const unseen = shuffle(pool.filter((w) => getMasteryCount(mastery[w.word] ?? 0) === 0));
+      const due = shuffle(pool.filter((w) => {
+        const m = mastery[w.word];
+        const c = getMasteryCount(m);
+        return c > 0 && c < MASTERY_GOAL && isWordDue(m);
+      }));
+      const notDue = shuffle(pool.filter((w) => {
+        const m = mastery[w.word];
+        const c = getMasteryCount(m);
+        return c > 0 && c < MASTERY_GOAL && !isWordDue(m);
+      }));
+      let newSlot = [...unseen].slice(0, 7);
+      let reviewSlot = [...due].slice(0, 3);
+      if (newSlot.length < 7) {
+        const extra = due.filter((w) => !reviewSlot.includes(w)).slice(0, 7 - newSlot.length);
+        newSlot = [...newSlot, ...extra];
+      }
+      if (reviewSlot.length < 3) {
+        reviewSlot = [...reviewSlot, ...notDue.slice(0, 3 - reviewSlot.length)];
+      }
+      const combined = shuffle([...newSlot, ...reviewSlot]).slice(0, QUIZ_WORDS);
+      if (combined.length < QUIZ_WORDS) {
+        const allWords = shuffle(WORDS.filter((w) => !combined.find((x) => x.word === w.word)));
+        return shuffle([...combined, ...allWords.slice(0, QUIZ_WORDS - combined.length)]);
+      }
+      return shuffle(combined);
     }
-    function handleStart(pool, mode, cat) {
-      setStudyQueue(shuffle(pool));
-      setQuizWords(pool);
+    function handleStart(pool, mode, cat, lm) {
+      const q = pickQuizWords(pool);
+      setWordQueue(q);
       setQuizMode(mode);
       setCurrentCat(cat);
-      setScreen("study");
+      setLearnMode(lm);
+      if (lm === "quiz") setScreen("quiz");
+      else setScreen("study1");
     }
-    function handleStudyDone() {
-      const q = pickQuizWords(quizWords);
-      setStudyQueue(q);
+    function handleStudy1Done() {
+      if (learnMode === "both") setScreen("study2");
+      else setScreen("quiz");
+    }
+    function handleStudy2Done() {
       setScreen("quiz");
     }
     function handleQuizDone(result) {
@@ -14216,74 +13980,46 @@ input,button{font-family:system-ui,sans-serif;}
       setScreen("result");
     }
     function handleStudyWrong(ww) {
-      const p = WORDS.filter((w) => ww.includes(w.word));
-      setStudyQueue(shuffle(p));
-      setScreen("study");
+      setWordQueue(shuffle(WORDS.filter((w) => ww.includes(w.word))));
+      setLearnMode("study");
+      setScreen("study1");
     }
     function handleQuizAgain() {
       const p = currentCat === "All" ? WORDS : WORDS.filter((w) => w.cat === currentCat);
-      setStudyQueue(pickQuizWords(p));
-      setScreen("quiz");
+      setWordQueue(pickQuizWords(p));
+      setScreen("study1");
     }
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { fontFamily: "system-ui,sans-serif", minHeight: "100vh", background: "#0d0d1a", color: "#f0f0ff", overflowX: "hidden" }, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("style", { children: `
-        @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(7px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
-        *{box-sizing:border-box;margin:0;padding:0;}
-        input,button{font-family:system-ui,sans-serif;}
-        ::-webkit-scrollbar{width:4px;}
-        ::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px;}
-      ` }),
-      (screen === "home" || screen === "study" || screen === "quiz" || screen === "result") && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { padding: "12px 16px 0", display: "flex", alignItems: "center", gap: 10 }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-          "button",
-          {
-            onClick: () => setScreen(screen === "home" ? "userSelect" : "home"),
-            style: { background: "rgba(255,255,255,0.07)", border: "none", color: "#777", borderRadius: 7, padding: "5px 12px", fontSize: 12, cursor: "pointer" },
-            children: "\u2190 \u8FD4\u56DE"
-          }
-        ),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("style", { children: `@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(7px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}*{box-sizing:border-box;margin:0;padding:0;}input,button{font-family:system-ui,sans-serif;}::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px;}` }),
+      screen !== "userSelect" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { padding: "12px 16px 0", display: "flex", alignItems: "center", gap: 10 }, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { onClick: () => setScreen(screen === "home" ? "userSelect" : "home"), style: { background: "rgba(255,255,255,0.07)", border: "none", color: "#777", borderRadius: 7, padding: "5px 12px", fontSize: 12, cursor: "pointer" }, children: "\u2190 \u8FD4\u56DE" }),
         activeUser && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { style: { fontSize: 12, color: "#555" }, children: [
           USER_AVATARS[activeUser.avatarIdx ?? 0],
           " ",
           activeUser.name
-        ] })
+        ] }),
+        (screen === "study1" || screen === "study2") && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { style: { fontSize: 11, color: "#888" }, children: screen === "study1" ? "\u7B2C1\u8F2A \u{1F4D6}" : "\u7B2C2\u8F2A \u{1F501}" })
       ] }),
-      screen === "userSelect" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-        UserSelectScreen,
-        {
-          users,
-          onSelect: (id) => {
-            setActiveId(id);
-            setScreen("home");
-          },
-          onCreate: (name) => {
-            const u = makeUser(name, users.length);
-            setUsers((p) => [...p, u]);
-            setActiveId(u.id);
-            setScreen("home");
-          },
-          onDelete: (id) => {
-            setUsers((p) => p.filter((u) => u.id !== id));
-            if (activeId === id) {
-              setActiveId(null);
-              setScreen("userSelect");
-            }
-          }
+      screen === "userSelect" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(UserSelectScreen, { users, onSelect: (id) => {
+        setActiveId(id);
+        setScreen("home");
+      }, onCreate: (name) => {
+        const u = makeUser(name, users.length);
+        setUsers((p) => [...p, u]);
+        setActiveId(u.id);
+        setScreen("home");
+      }, onDelete: (id) => {
+        setUsers((p) => p.filter((u) => u.id !== id));
+        if (activeId === id) {
+          setActiveId(null);
+          setScreen("userSelect");
         }
-      ),
+      } }),
       screen === "home" && activeUser && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HomeScreen, { user: activeUser, mastery, onStart: handleStart, onSwitchUser: () => setScreen("userSelect") }),
-      screen === "study" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(StudyScreen, { queue: studyQueue, onFinish: handleStudyDone }, studyQueue.map((w) => w.word).join()),
-      screen === "quiz" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(QuizScreen, { queue: studyQueue, mode: quizMode, mastery, onFinish: handleQuizDone }, studyQueue.map((w) => w.word).join() + quizMode),
-      screen === "result" && quizResult && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-        ResultScreen,
-        {
-          quizResult,
-          mastery,
-          onStudyWrong: handleStudyWrong,
-          onQuizAgain: handleQuizAgain,
-          onHome: () => setScreen("home")
-        }
-      )
+      screen === "study1" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(StudyScreen, { queue: wordQueue, round: 1, onFinish: handleStudy1Done }, "s1-" + wordQueue.map((w) => w.word).join()),
+      screen === "study2" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(StudyScreen, { queue: shuffle([...wordQueue]), round: 2, onFinish: handleStudy2Done }, "s2-" + wordQueue.map((w) => w.word).join()),
+      screen === "quiz" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(QuizScreen, { queue: wordQueue, mode: quizMode, mastery, onFinish: handleQuizDone }, "q-" + wordQueue.map((w) => w.word).join() + quizMode),
+      screen === "result" && quizResult && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ResultScreen, { quizResult, mastery, onStudyWrong: handleStudyWrong, onQuizAgain: handleQuizAgain, onHome: () => setScreen("home") })
     ] });
   }
   import_client.default.createRoot(document.getElementById("root")).render(import_react.default.createElement(App));
